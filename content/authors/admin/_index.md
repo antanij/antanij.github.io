@@ -10,19 +10,21 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: /#contact
+    link: mailto:jyot.antani@tamu.edu
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/AntaniJo
   - icon: graduation-cap
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://scholar.google.com/citations?user=BTdrWc0AAAAJ&hl=en
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/jyot.antani
+  - display:
+      header: false
+    link: https://www.facebook.com/jyotani
+    icon_pack: fab
+    icon: facebook
 organizations:
   - name: Chemical Engineering, Texas A&M University
     url: https://engineering.tamu.edu/chemical/index.html
