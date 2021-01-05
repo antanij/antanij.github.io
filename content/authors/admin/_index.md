@@ -31,9 +31,9 @@ organizations:
     url: https://engineering.tamu.edu/chemical/index.html
 education:
   courses:
-    - course: PhD in Chemical Engineering
+    - course: PhD in Chemical Engineering (Current)
       institution: Texas A&M University
-      year: 2021
+      year: ""
     - course: B. Tech. with Honours in Chemical Engineering
       year: 2016
       institution: IIT Bombay
