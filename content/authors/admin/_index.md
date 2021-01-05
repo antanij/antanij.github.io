@@ -41,6 +41,10 @@ email: ""
 superuser: true
 highlight_name: false
 ---
-Jyot Antani is a PhD Candidate at Texas A&M University. His research interests include biophysics, virology, and imaging technology. He currently works on the biophysics of bacterial motility and environment-sensing. He wants to pursue a postdoc after his PhD.
+I am Jyot, a PhD Candidate at Texas A&M University. I am currently studying the physics of how bacteria move and sense their surroundings. This is important for understanding how diseases spread.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/CV_JAntani.pdf" "newtab" >}}CV{{< /staticref >}}.
+In addition to microbiology techniques, I employ phase-contrast as well as fluorescene microscopy to look at bacterial behavior. Following microscopy, I carry out image-analysis by writing codes in MATLAB.
+
+I love research and would like to continue doing it. For future research, I am interested in smaller microbes: viruses.
+
+{{< icon name="download" pack="fas" >}} {{< staticref "media/CV_JAntani.pdf" "newtab" >}} Download my CV here{{< /staticref >}}.
