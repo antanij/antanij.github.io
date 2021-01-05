@@ -4,9 +4,10 @@ role: PhD Candidate
 avatar_filename: avatar.jpg
 bio: My research interests include biophysics, virology, and imaging technology.
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Biophysics
+  - Virology
+  - Imaging Technology
+  - Biomedical Engineering
 social:
   - icon: envelope
     icon_pack: fas
@@ -42,4 +43,4 @@ highlight_name: false
 ---
 Jyot Antani is a PhD Candidate at Texas A&M University. His research interests include biophysics, virology, and imaging technology. He currently works on the biophysics of bacterial motility and environment-sensing. He wants to pursue a postdoc after his PhD.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/CV_JAntani.pdf" "newtab" >}}CV{{< /staticref >}}.
