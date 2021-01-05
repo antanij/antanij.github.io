@@ -30,15 +30,9 @@ organizations:
     url: https://engineering.tamu.edu/chemical/index.html
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in Chemical Engineering
+      institution: Texas A&M University
+      year: 2021
     - course: B. Tech. with Honours in Chemical Engineering
       year: 2016
       institution: IIT Bombay
