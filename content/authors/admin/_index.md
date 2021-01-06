@@ -20,7 +20,7 @@ social:
     link: https://scholar.google.com/citations?user=BTdrWc0AAAAJ&hl=en
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/jyotantani
+    link: https://www.linkedin.com/in/jyotantani
   - display:
       header: false
     link: https://www.facebook.com/jyotani
