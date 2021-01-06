@@ -41,9 +41,9 @@ email: ""
 superuser: true
 highlight_name: false
 ---
-I am Jyot, a PhD Candidate at Texas A&M University. I am currently studying the physics of how bacteria move and sense their surroundings. This is important for understanding how diseases spread.
+I am currently studying the physics of how bacteria move and sense their surroundings. This is important for understanding how diseases spread.
 
-In addition to microbiology techniques, I employ phase-contrast as well as fluorescene microscopy to look at bacterial behavior. Following microscopy, I carry out image-analysis by writing codes in MATLAB.
+I employ molecular biology techniques to manipulate bacterial genome, and microscopy to observe bacterial behavior. I analyze the observations by carrying out image-analysis in MATLAB.
 
 I love research and would like to continue doing it. For future research, I am interested in smaller microbes: viruses.
 
