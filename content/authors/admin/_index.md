@@ -1,6 +1,6 @@
 ---
 title: Jyot Antani
-role: " jyot.antani@tamu.edu PhD Candidate"
+role: PhD Candidate
 avatar_filename: avatar.jpg
 bio: My research interests include biophysics, virology, and imaging technology.
 interests:
@@ -29,6 +29,8 @@ social:
 organizations:
   - name: Texas A&M University
     url: https://engineering.tamu.edu/chemical/index.html
+  - name: jyot.antani@tamu.edu
+    url: mailto:jyot.antani@tamu.edu
 education:
   courses:
     - course: PhD in Chemical Engineering (Current)
