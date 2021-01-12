@@ -41,9 +41,9 @@ email: ""
 superuser: true
 highlight_name: false
 ---
-The current topic of my research is the physics of how bacteria move and sense their surroundings. This is important for understanding how diseases spread.
+I am currently studying the physics of how bacteria move and sense their surroundings. This is important for understanding how diseases spread.
 
-I employ molecular biology techniques to manipulate bacterial genome, and observe bacterial behavior under simple or fancy microscopes. I analyze the observations by carrying out image-analysis in MATLAB.
+I employ molecular biology techniques to manipulate bacterial genome, and observe bacterial/enzyme behavior under simple/fancy microscopes. I analyze the observations by carrying out image-analysis in MATLAB.
 
 Research is my passion and I would like to continue doing it. For future research, I am interested in smaller microbes: viruses.
 
