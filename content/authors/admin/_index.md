@@ -1,6 +1,6 @@
 ---
 title: Jyot Antani
-role: PhD Candidate, jyot.antani@tamu.edu
+role: " jyot.antani@tamu.edu PhD Candidate"
 avatar_filename: avatar.jpg
 bio: My research interests include biophysics, virology, and imaging technology.
 interests:
