@@ -1,4 +1,7 @@
 ---
+
+active: false
+
 widget: pages
 widget_id: PUBLICATIONS
 headless: true
