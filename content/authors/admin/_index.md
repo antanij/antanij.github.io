@@ -47,6 +47,6 @@ I am currently studying the physics of how bacteria move and sense their surroun
 
 I employ molecular biology techniques to manipulate bacterial genome, and observe bacterial/enzyme behavior under simple/fancy microscopes. I analyze the observations by carrying out image-analysis in MATLAB.
 
-Research is my passion and I would like to continue doing it. For future research, I am interested in smaller microbes: viruses.
+Research is my passion and I would like to continue doing it. I am currently looking for postdoctoral research positions.
 
 {{< icon name="download" pack="fas" >}} {{< staticref "media/CV_JAntani.pdf" "newtab" >}} Download my CV here{{< /staticref >}}.
