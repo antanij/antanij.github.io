@@ -45,7 +45,7 @@ highlight_name: false
 ---
 I am currently studying the physics of how bacteria move and sense their surroundings. This is important for understanding how diseases spread.
 
-I employ molecular biology techniques to manipulate bacterial genome. Next, I employ microscopy to observe the behavior of bacteria or fluorescently labeled proteins. I analyze the recorded observations by carrying out image analysis in MATLAB.
+I employ molecular biology techniques to manipulate the bacterial genome. Next, I employ microscopy to observe the behavior of bacteria or fluorescently labeled proteins. I analyze the recorded observations by carrying out image analysis in MATLAB.
 
 Research is my passion and I would like to continue doing it. I am currently looking for postdoctoral research positions to study the interactions between viral pathogens and host cells.
 
