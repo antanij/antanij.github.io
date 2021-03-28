@@ -1,6 +1,6 @@
 ---
 title: Jyot Antani
-role: PhD Candidate
+role: Almost PhD
 avatar_filename: avatar.jpg
 bio: My research interests include biophysics, virology, and imaging technology.
 interests:
@@ -27,8 +27,8 @@ social:
     icon_pack: fab
     icon: facebook
 organizations:
-  - name: Texas A&M University
-    url: https://engineering.tamu.edu/chemical/index.html
+  - name: "Current: Texas A&M University; Soon: Yale University"
+    url: ""
   - name: jyot.antani@tamu.edu
     url: mailto:jyot.antani@tamu.edu
 education:
@@ -45,7 +45,7 @@ highlight_name: false
 ---
 I am currently studying the physics of how bacteria move and sense their surroundings. This is important for understanding how diseases spread.
 
-I employ molecular biology techniques to manipulate the bacterial genome. Next, I employ microscopy to observe the behavior of bacteria or fluorescently labeled proteins. I analyze the recorded observations by carrying out image analysis in MATLAB.
+I use molecular biology techniques to manipulate the bacterial genome. Next, I employ microscopy to observe the behavior of bacteria or fluorescently labeled proteins. I analyze the recorded observations by carrying out image analysis in MATLAB.
 
 Research is my passion and I would like to continue doing it. I will finish my PhD this summer, and move on to Yale University for a postdoctoral position. My postdoc research will be about the interactions between bacteriophage (the viruses of bacteria) and host bacterial cells.
 
