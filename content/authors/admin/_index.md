@@ -27,7 +27,7 @@ social:
     icon_pack: fab
     icon: facebook
 organizations:
-  - name: "Current: Texas A&M University Soon going to: Yale University"
+  - name: "Current: Texas A&M University Soon: Yale University"
     url: ""
   - name: jyot.antani@tamu.edu
     url: mailto:jyot.antani@tamu.edu
