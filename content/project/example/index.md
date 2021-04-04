@@ -17,7 +17,7 @@ links:
 image:
   caption: Tracking single cells of swimming H. pylori
   focal_point: Smart
-  filename: ""
+  filename: featured.png
 url_code: ""
 ---
 *H. pylori* is a bacterium implicated in ulcers and cancers of the stomach.
