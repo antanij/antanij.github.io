@@ -22,4 +22,3 @@ image:
   filename: trkn815trj.gif
 url_code: ""
 ---
-Here is the link to a Tweetorial that I wrote about this work: explained in a plain language with pictures: https://twitter.com/AntaniJo/status/1353868525920776194
