@@ -11,7 +11,7 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:jyot.antani@tamu.edu
+    link: mailto:jyotani@gmail.com
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/AntaniJo
