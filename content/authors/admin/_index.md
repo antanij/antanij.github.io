@@ -29,8 +29,8 @@ social:
 organizations:
   - name: "Current: Texas A&M University Soon: Yale University"
     url: ""
-  - name: jyot.antani@tamu.edu
-    url: mailto:jyot.antani@tamu.edu
+  - name: jyotani@gmail.com
+    url: mailto:jyotani@gmail.com
 education:
   courses:
     - course: PhD in Chemical Engineering (Current)
