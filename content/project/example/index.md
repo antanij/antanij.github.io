@@ -13,7 +13,7 @@ links:
   - name: Tweetorial
     url: https://twitter.com/AntaniJo/status/1353868525920776194
   - url: https://elifesciences.org/articles/63936
-    name: eLife Manuscript
+    name: eLife Article
 image:
   caption: Tracking single cells of swimming H. pylori
   focal_point: Smart
