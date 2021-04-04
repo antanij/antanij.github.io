@@ -1,5 +1,5 @@
 ---
-slides: example
+slides: false
 url_pdf: ""
 title: Single-cell Motility and Chemotaxis of Helicobacter pylori
 summary: ""
