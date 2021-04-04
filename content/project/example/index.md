@@ -12,11 +12,14 @@ tags: []
 links:
   - icon: ""
     icon_pack: null
-    name: Follow
+    name: Published work
     url: https://elifesciences.org/articles/63936
+  - name: Tweetorial
+    url: https://twitter.com/AntaniJo/status/1353868525920776194
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: Tracking single cells of swimming H. pylori
   focal_point: Smart
+  filename: trkn815trj.gif
 url_code: ""
 ---
 Here is the link to a Tweetorial that I wrote about this work: explained in a plain language with pictures: https://twitter.com/AntaniJo/status/1353868525920776194
