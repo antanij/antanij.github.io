@@ -15,6 +15,6 @@ links:
 image:
   caption: Tracking single cells of swimming H. pylori
   focal_point: Smart
-  filename: featured.gif
+  filename: featured.png
 url_code: ""
 ---
