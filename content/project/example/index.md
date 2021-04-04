@@ -7,7 +7,7 @@ url_video: ""
 date: 2021-04-04T02:52:45.212Z
 external_link: https://elifesciences.org/articles/63936
 url_slides: ""
-subtitle: H. pylori is a bacterium implicated in ulcers and cancers of the stomach.
+subtitle: ""
 tags: []
 links:
   - name: Tweetorial
@@ -18,3 +18,4 @@ image:
   filename: featured.png
 url_code: ""
 ---
+H. pylori is a bacterium implicated in ulcers and cancers of the stomach.
