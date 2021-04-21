@@ -1,6 +1,6 @@
 ---
-title: Jyot Antani
-role: Almost PhD
+title: Jyot Antani, PhD
+role: ""
 avatar_filename: avatar.jpg
 bio: My research interests include biophysics, virology, and imaging technology.
 interests:
