@@ -5,12 +5,12 @@ draft: false
 featured: false
 external_link: https://antanij.netlify.app/media/CV_JAntani.pdf
 image:
-  filename: featured
+  filename: capture.png
   focal_point: Smart
   preview_only: false
 ---
 <!--StartFragment-->
 
-Determining the effect of mechanical forces on chemotactic output of the bacterial flagellar motor
+Determining the effect of mechanical forces on chemotactic output of the bacterial flagellar motor.
 
 <!--EndFragment-->
