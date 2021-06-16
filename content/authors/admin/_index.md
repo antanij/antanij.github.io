@@ -29,8 +29,8 @@ social:
 organizations:
   - name: Yale University
     url: ""
-  - name: jyotani@gmail.com
-    url: mailto:jyotani@gmail.com
+  - name: jyot.antani@yale.edu
+    url: mailto:jyot.antani@yale.edu
 education:
   courses:
     - course: PhD in Chemical Engineering (Current)
