@@ -33,7 +33,7 @@ organizations:
     url: mailto:jyot.antani@yale.edu
 education:
   courses:
-    - course: PhD in Chemical Engineering (Current)
+    - course: Ph.D. in Chemical Engineering
       institution: Texas A&M University
       year: ""
     - course: B. Tech. with Honours in Chemical Engineering
