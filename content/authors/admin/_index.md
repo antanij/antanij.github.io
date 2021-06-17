@@ -17,7 +17,7 @@ social:
     link: https://twitter.com/AntaniJo
   - icon: graduation-cap
     icon_pack: fas
-    link: https://scholar.google.com/citations?user=BTdrWc0AAAAJ&hl=en
+    link: https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F5usMa1O57Pezx6CnurvhDSRIYu2JKiTK7hF5W6Zqlux8hTnPrzr7-A8nDVaqyjkGESbazx8QRR4DMeOStvEHctQ3yiSw&user=OMubETAAAAAJ
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/jyotantani
