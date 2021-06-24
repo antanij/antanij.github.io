@@ -48,7 +48,7 @@ I am currently studying the physics of how bacteriophages, the viruses of bacter
 * [Paul Turner Lab](https://turnerlab.yale.edu/), Department of Ecology & Evolutionary Biology
 * [Thierry Emonet Lab](http://emonet.biology.yale.edu/), Molecular, Cellular and Developmental Biology
 
-My PhD research in [Pushkar Lele Lab](http://pushkarlelelab.org/) at Texas A&M University focused on the physics of how bacteria move and sense their surroundings. The fundamental biophysics of these processes is important for understanding how diseases spread.
+My PhD research was in [Pushkar Lele Lab](http://pushkarlelelab.org/) at Texas A&M University. It focused on the physics of how bacteria move and sense their surroundings. The fundamental biophysics of these micro- and nanoscopic processes is important for understanding how diseases spread.
 
 I use molecular biology techniques to manipulate the bacterial genome. Next, I employ microscopy to observe the behavior of bacteria or fluorescently labeled molecules. I analyze the recorded observations by carrying out image analysis in MATLAB.
 
