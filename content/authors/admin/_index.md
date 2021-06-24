@@ -45,8 +45,8 @@ highlight_name: false
 ---
 I am currently studying the physics of how bacteriophages, the viruses of bacteria, interact with their hosts. At Yale, I have a joint appointment with two labs:
 
-* [Paul Turner Lab](https://turnerlab.yale.edu/), Department of Ecology & Evolutionary Biology
-* [Thierry Emonet Lab](http://emonet.biology.yale.edu/), Molecular, Cellular and Developmental Biology 
+* [Paul Turner Lab](https://turnerlab.yale.edu/), [Department of Ecology & Evolutionary Biology](https://eeb.yale.edu/people/postdoctoral-and-research-appointments/jyot-antani)
+* [Thierry Emonet Lab](http://emonet.biology.yale.edu/), [Molecular, Cellular and Developmental Biology ](https://mcdb.yale.edu/people/jyot-antani)
 
 My PhD research focused on the physics of how bacteria move and sense their surroundings. The fundamental biophysics of these processes is important for understanding how diseases spread.
 
