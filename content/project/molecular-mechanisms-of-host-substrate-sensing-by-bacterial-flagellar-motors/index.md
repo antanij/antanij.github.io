@@ -11,6 +11,6 @@ image:
 ---
 <!--StartFragment-->
 
-Determining the effect of mechanical forces on chemotactic output of the bacterial flagellar motor.
+Determined the effect of mechanical forces on chemotactic output of the bacterial flagellar motor. Manuscript in revision at *Nature Communications*.
 
 <!--EndFragment-->
