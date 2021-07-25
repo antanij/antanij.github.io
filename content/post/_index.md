@@ -1,5 +1,5 @@
 ---
-title: PhD Application Guide
+title: Getting Started
 view: 2
 header:
   caption: ""
