@@ -11,7 +11,7 @@
 [[main]]
   name = "Projects"
   url = "#projects"
-  weight = 30
+  weight = 20
 
 #[[main]]
 #  name = "Talks"
@@ -21,12 +21,12 @@
 [[main]]
   name = "Google Scholar"
   url = "https://scholar.google.com/citations?user=OMubETAAAAAJ&hl=en"
-  weight = 50
+  weight = 8
   
 [[main]]
   name = "Application Guide(s)"
   url = "#posts"
-  weight = 20
+  weight = 30
 
 #[[main]]
 #  name = "Contact"
@@ -38,4 +38,4 @@
 [[main]]
     name = "CV"
     url = "https://antanij.netlify.app/media/CV_JAntani.pdf"
-    weight = 70
+    weight = 5
