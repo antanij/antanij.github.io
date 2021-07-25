@@ -44,7 +44,7 @@ email: ""
 superuser: true
 highlight_name: false
 ---
-I am currently studying the physics of how bacteriophages, the viruses of bacteria, interact with their hosts. At Yale, I have a joint appointment with two labs:
+I am currently studying the physics of how bacteriophages, the viruses of bacteria, interact with their hosts. What we learn from this research will be useful in the development of phage therapy strategies to battle antibiotic infections. At Yale, I have a joint appointment with two labs:
 
 * [Paul Turner Lab](https://turnerlab.yale.edu/), Department of Ecology & Evolutionary Biology
 * [Thierry Emonet Lab](http://emonet.biology.yale.edu/), Molecular, Cellular and Developmental Biology
