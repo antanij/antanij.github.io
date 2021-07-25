@@ -15,6 +15,7 @@ image:
   focal_point: ""
   placement: 2
   preview_only: false
+  filename: featured.png
 ---
 In the summer of 2016, the time after the end of my BTech and before the start of my PhD, I was hanging out at home. I figured writing down what I learned about PhD applications might be useful for the upcoming batches of applicants. So I wrote up this document. 
 
