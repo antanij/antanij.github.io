@@ -1,7 +1,7 @@
 ---
 title: PhD Application Guide
 date: 2021-07-25T18:52:34.632Z
-summary: https://tinyurl.com/apping-guide-jyot
+summary: "Attn: students considering a PhD application"
 draft: false
 featured: false
 image:
