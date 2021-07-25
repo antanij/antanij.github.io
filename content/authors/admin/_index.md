@@ -6,6 +6,7 @@ bio: My research interests include biophysics, virology, and imaging technology.
 interests:
   - Biophysics
   - Virology
+  - Cancer Biology
   - Imaging Technology
   - Biomedical Engineering
 social:
@@ -48,10 +49,8 @@ I am currently studying the physics of how bacteriophages, the viruses of bacter
 * [Paul Turner Lab](https://turnerlab.yale.edu/), Department of Ecology & Evolutionary Biology
 * [Thierry Emonet Lab](http://emonet.biology.yale.edu/), Molecular, Cellular and Developmental Biology
 
-My PhD research was in [Pushkar Lele Lab](http://pushkarlelelab.org/) at Texas A&M University. It focused on the physics of how bacteria move and sense their surroundings. The fundamental biophysics of these micro- and nanoscopic processes is important for understanding how diseases spread.
+My PhD research was in [Pushkar Lele Lab](http://pushkarlelelab.org/) at Texas A&M University. It focused on the physics of how bacteria move and sense their surroundings. The fundamental biophysics of these micro- and nanoscopic processes is important for understanding how diseases spread. My dissertation (2021) is titled **Sensory Functions of the Bacterial Flagellar Motor**. 
 
-I use molecular biology techniques to manipulate the bacterial genome. Next, I employ microscopy to observe the behavior of bacteria or fluorescently labeled molecules. I analyze the recorded observations by carrying out image analysis in MATLAB.
-
-My dissertation (2021) title is: **Sensory Functions of the Bacterial Flagellar Motor**. Some of this work has been published and is linked below under Projects.
+In my research, I employ a variety of techniques consisting molecular biology, phase and fluorescence microscopy, image analysis, particle tracking, and prototyping (3D-printed chambers and microfluidic devices). Some of my work has been published and is linked below under Projects.
 
 {{< icon name="download" pack="fas" >}} {{< staticref "media/CV_JAntani.pdf" "newtab" >}} Download my CV here{{< /staticref >}}.
