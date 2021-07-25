@@ -1,7 +1,7 @@
 ---
 title: PhD Application Guide
 date: 2021-07-25T18:52:34.632Z
-summary: ""
+summary: https://tinyurl.com/apping-guide-jyot
 draft: false
 featured: false
 image:
