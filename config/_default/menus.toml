@@ -21,10 +21,10 @@
 [[main]]
   name = "Google Scholar"
   url = "https://scholar.google.com/citations?user=OMubETAAAAAJ&hl=en"
-  weight = 8
+  weight = 40
   
 [[main]]
-  name = "Application Guide(s)"
+  name = "PhD Application Guide"
   url = "#posts"
   weight = 30
 
@@ -38,4 +38,4 @@
 [[main]]
     name = "CV"
     url = "https://antanij.netlify.app/media/CV_JAntani.pdf"
-    weight = 5
+    weight = 50
