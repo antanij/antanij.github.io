@@ -7,6 +7,8 @@ external_link: https://doi.org/10.1088/1478-3975/abdc0e
 links:
   - url: https://doi.org/10.1088/1478-3975/abdc0e
     name: Topical Review Article
+  - url: https://antanij.netlify.app//media/Wong_Antani_et_al_Phys_Biol_2021.pdf
+    name: PDF
 image:
   filename: featured.png
   focal_point: Smart
