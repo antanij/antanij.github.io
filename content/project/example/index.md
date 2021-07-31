@@ -14,7 +14,7 @@ links:
     url: https://twitter.com/AntaniJo/status/1353868525920776194
   - url: https://elifesciences.org/articles/63936
     name: eLife Article
-  - url: https://antanij.netlify.app/media/antani_et_al_elife_2021.pdf
+  - url: https://antanij.netlify.app/media/Antani_et_al_eLife_2021.pdf
     name: PDF
 image:
   caption: Tracking single cells of swimming H. pylori
