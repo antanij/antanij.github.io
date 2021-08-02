@@ -1,9 +1,14 @@
 ---
-title: Molecular mechanisms of host substrate sensing by bacterial flagellar motors
+title: Molecular mechanisms of mechanical force sensing by bacterial flagellar motors
 date: 2021-04-21T20:32:16.888Z
 draft: false
 featured: false
-external_link: https://antanij.netlify.app/media/CV_JAntani.pdf
+external_link: https://www.researchsquare.com/article/rs-437908/v1
+links:
+  - url: https://twitter.com/AntaniJo/status/1422338249025105922
+    name: Tweetorial
+  - url: https://www.researchsquare.com/article/rs-437908/v1
+    name: preprint
 image:
   filename: capture.png
   focal_point: Smart
@@ -11,6 +16,4 @@ image:
 ---
 <!--StartFragment-->
 
-Determined the effect of mechanical forces on chemotactic output of the bacterial flagellar motor. Manuscript in revision at *Nature Communications*.
-
-<!--EndFragment-->
+The flagellar motor in *E. coli* can sense mechanical forces. We figured out how this happens: mechanosensitive recruitment of stator units promotes binding of the response regulator CheY-P to the flagellar motor. [See Tweetorial](https://twitter.com/AntaniJo/status/1422338249025105922) for a quick explanation. <!--EndFragment-->
