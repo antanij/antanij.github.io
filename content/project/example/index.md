@@ -17,7 +17,7 @@ links:
   - url: https://antanij.netlify.app/media/Antani_et_al_eLife_2021.pdf
     name: PDF
 image:
-  caption: Tracking single cells of swimming H. pylori
+  caption: ""
   focal_point: Smart
   filename: featured.png
 url_code: ""
