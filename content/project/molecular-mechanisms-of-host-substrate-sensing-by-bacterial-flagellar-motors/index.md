@@ -10,7 +10,7 @@ links:
   - url: https://www.researchsquare.com/article/rs-437908/v1
     name: preprint
 image:
-  filename: capture.png
+  filename: featured.png
   focal_point: Smart
   preview_only: false
 ---
