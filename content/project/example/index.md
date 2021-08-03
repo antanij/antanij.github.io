@@ -22,4 +22,4 @@ image:
   filename: featured.png
 url_code: ""
 ---
-*H. pylori* is a bacterium implicated in ulcers and cancers of the stomach. We studied their behavior in response to chemical gradients and the biophysical principles involved in their navigation.
+*<i>H. pylori<\i>* is a bacterium implicated in ulcers and cancers of the stomach. We studied their behavior in response to chemical gradients and the biophysical principles involved in their navigation.
