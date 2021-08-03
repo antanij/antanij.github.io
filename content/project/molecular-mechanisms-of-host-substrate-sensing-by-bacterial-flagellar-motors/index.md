@@ -9,6 +9,8 @@ links:
     name: Tweetorial
   - url: https://www.researchsquare.com/article/rs-437908/v1
     name: preprint
+  - url: https://antanij.netlify.app/media/Antani_et_al_2021_mechanosensing_Ecoli.pdf
+    name: PDF
 image:
   filename: featured.png
   focal_point: Smart
