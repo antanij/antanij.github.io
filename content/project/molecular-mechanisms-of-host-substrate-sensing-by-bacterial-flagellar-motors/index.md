@@ -18,4 +18,4 @@ image:
 ---
 <!--StartFragment-->
 
-The flagellar motor in *E. coli* can sense mechanical forces. We figured out how this happens: mechanosensitive recruitment of stator units promotes binding of the response regulator CheY-P to the flagellar motor. [See Tweetorial](https://twitter.com/AntaniJo/status/1422338249025105922) for a quick explanation. <!--EndFragment-->
+The flagellar motor in *E. coli* can sense mechanical forces. We discovered a mechanism: mechanosensitive recruitment of stator units promotes binding of the response regulator CheY-P to the flagellar motor. [See Tweetorial](https://twitter.com/AntaniJo/status/1422338249025105922) for a quick explanation. <!--EndFragment-->
