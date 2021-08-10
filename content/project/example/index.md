@@ -1,7 +1,7 @@
 ---
 slides: false
 url_pdf: ""
-title: Single-cell Motility and Chemotaxis of _Helicobacter pylori_
+title: Single-cell Motility and Chemotaxis of Helicobacter pylori
 summary: ""
 url_video: ""
 date: 2021-04-21T20:46:43.673Z
@@ -22,4 +22,4 @@ image:
   filename: featured.png
 url_code: ""
 ---
-\_H. pylori\_ is a bacterium implicated in ulcers and cancers of the stomach. We studied their behavior in response to chemical gradients and the biophysical principles involved in their navigation.
+_H. pylori_ is a bacterium implicated in ulcers and cancers of the stomach. We studied their behavior in response to chemical gradients and the biophysical principles involved in their navigation.
