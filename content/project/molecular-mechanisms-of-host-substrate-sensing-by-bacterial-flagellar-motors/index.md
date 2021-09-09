@@ -18,4 +18,4 @@ image:
 ---
 <!--StartFragment-->
 
-The flagellar motor in *E. coli* can sense mechanical forces. We discovered a mechanism. [See Tweetorial](https://twitter.com/AntaniJo/status/1422338249025105922) for a quick explanation. <!--EndFragment-->
+The flagellar motor in *E. coli* can sense mechanical forces. We discovered a mechanism involved in this sensing. [See Tweetorial](https://twitter.com/AntaniJo/status/1422338249025105922) for a quick explanation. <!--EndFragment-->
