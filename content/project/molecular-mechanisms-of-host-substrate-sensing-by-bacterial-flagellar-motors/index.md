@@ -1,5 +1,5 @@
 ---
-title: Molecular mechanisms of mechanical force sensing by bacterial flagellar motors
+title: Molecular Mechanisms of Mechanical Force Sensing by Bacterial Flagellar Motors
 date: 2021-04-21T20:32:16.888Z
 draft: false
 featured: false
