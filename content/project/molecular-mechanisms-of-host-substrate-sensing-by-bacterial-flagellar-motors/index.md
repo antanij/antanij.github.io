@@ -7,8 +7,8 @@ external_link: https://www.researchsquare.com/article/rs-437908/v1
 links:
   - url: https://twitter.com/AntaniJo/status/1422338249025105922
     name: Tweetorial
-  - url: https://www.researchsquare.com/article/rs-437908/v1
-    name: preprint
+  - url: https://www.nature.com/articles/s41467-021-25774-2
+    name: Nature Communications Article
   - url: https://antanij.netlify.app/media/Antani_et_al_2021_mechanosensing_Ecoli.pdf
     name: PDF
 image:
