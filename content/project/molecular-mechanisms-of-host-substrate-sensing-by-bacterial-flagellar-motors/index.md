@@ -3,7 +3,7 @@ title: Molecular Mechanisms of Mechanical Force Sensing by Bacterial Flagellar M
 date: 2021-04-21T20:32:16.888Z
 draft: false
 featured: false
-external_link: https://www.researchsquare.com/article/rs-437908/v1
+external_link: https://www.nature.com/articles/s41467-021-25774-2
 links:
   - url: https://twitter.com/AntaniJo/status/1422338249025105922
     name: Tweetorial
