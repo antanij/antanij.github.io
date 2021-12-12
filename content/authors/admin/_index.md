@@ -51,6 +51,6 @@ I am currently studying the physics of how bacteriophages, the viruses of bacter
 
 My PhD research was in [Pushkar Lele Lab](http://pushkarlelelab.org/) at Texas A&M University. It focused on the physics of how bacteria move and sense their surroundings. The fundamental biophysics of these micro- and nanoscopic processes is important for understanding how diseases spread. My dissertation (2021) is titled **Sensory Functions of the Bacterial Flagellar Motor**. 
 
-In my research, I employ a variety of techniques consisting molecular biology, phase and fluorescence microscopy, image analysis, particle tracking, and prototyping (3D-printed chambers and microfluidic devices). Some of my work has been published and is linked below under [Projects](#projects).
+In my research, I employ a variety of techniques consisting molecular biology, phase and fluorescence microscopy, image analysis, particle tracking, and prototyping (3D-printed chambers and microfluidic devices). Some of my work has been published and is linked below.
 
 {{< icon name="download" pack="fas" >}} {{< staticref "media/CV_JAntani.pdf" "newtab" >}} Download my CV here{{< /staticref >}}.
