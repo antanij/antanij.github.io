@@ -4,7 +4,7 @@ date: 2022-03-11T21:08:53.266Z
 draft: false
 featured: true
 image:
-  filename: featured
+  filename: screenshot-2022-03-11-162220.png
   focal_point: Smart
   preview_only: false
 ---
