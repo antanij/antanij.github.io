@@ -1,4 +1,4 @@
-# Navigation Links
+tr# Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
@@ -24,7 +24,7 @@
   weight = 40
   
 [[main]]
-  name = "PhD Application Guide"
+  name = "Science Outreach"
   url = "#posts"
   weight = 30
 
