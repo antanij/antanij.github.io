@@ -2,7 +2,7 @@
 title: Research Presentation to Middle School Students
 date: 2022-03-11T21:08:53.266Z
 draft: false
-featured: false
+featured: true
 image:
   filename: featured
   focal_point: Smart
