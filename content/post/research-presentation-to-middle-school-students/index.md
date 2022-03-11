@@ -14,9 +14,7 @@ I presented my journey in science and my research to middle school kids, in Feb 
 
 Honored to have this fun opportunity to talk to curious young minds, organized by grad students of Yale University and [The Open Labs](https://theopenlabs.sites.yale.edu/)!
 
-If you (and/or your kid) are interested in learning how bacteria move and sense their surroundings, check out the recording: [https://youtube.com/watch?v=vnAH7Ot8w_I&feature=youtu.be](https://youtube.com/watch?v=vnAH7Ot8w_I&feature=youtu.be&fbclid=IwAR2aM2ykLKcEHbX3zKgW6IlPw3UzgwrC8P_YAHiRnm1sihI22p2OQNhtt7U)
-
-
+If you (and/or your kid) are interested in learning how bacteria move and sense their surroundings, [check out the recording on YouTube]([https://youtube.com/watch?v=vnAH7Ot8w_I&feature=youtu.be](https://youtube.com/watch?v=vnAH7Ot8w_I&feature=youtu.be&fbclid=IwAR2aM2ykLKcEHbX3zKgW6IlPw3UzgwrC8P_YAHiRnm1sihI22p2OQNhtt7U)).
 
 <!--StartFragment-->
 
