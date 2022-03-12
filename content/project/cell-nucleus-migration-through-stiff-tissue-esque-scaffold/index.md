@@ -1,6 +1,6 @@
 ---
 title: Cell Nucleus Migration through Stiff Tissue-esque Scaffold
-date: 2022-03-12T21:03:22.949Z
+date: 2021-02-11T21:03:22.949Z
 draft: false
 featured: false
 external_link: https://doi.org/10.1101/2022.03.10.483838
