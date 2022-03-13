@@ -2,7 +2,8 @@
 title: Jyot Antani, PhD
 role: Postdoctoral Associate
 avatar_filename: avatar.jpg
-bio: My research interests include biophysics, virology, and imaging technology.
+bio: "Research interests: biophysics | virology | flagellar motors | imaging
+  technology"
 interests:
   - Biophysics
   - Virology
