@@ -7,6 +7,8 @@ external_link: https://doi.org/10.1101/2022.03.10.483838
 links:
   - url: https://doi.org/10.1101/2022.03.10.483838
     name: Preprint
+  - name: PDF
+    url: https://antanij.netlify.app/media/Katiyar_et_al_drop-like_nucleus.pdf
 image:
   filename: featured.png
   focal_point: Smart
