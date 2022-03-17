@@ -54,4 +54,6 @@ My PhD research was in [Pushkar Lele Lab](http://pushkarlelelab.org/) at Texas A
 
 In my research, I employ a variety of techniques consisting molecular biology, phase and fluorescence microscopy, image analysis, particle tracking, and prototyping (3D-printed chambers and microfluidic devices). Some of my work has been published and is linked below.
 
+I strongly believe in #OpenScience and am passionate about Science Communication for all. To this end, I write for [LabLeaks](http://lableaks.org/), a fun(ny), biweekly newsletter bringing the latest scientific research to a general audience.
+
 {{< icon name="download" pack="fas" >}} {{< staticref "media/CV_JAntani.pdf" "newtab" >}} Download my CV here{{< /staticref >}}.
