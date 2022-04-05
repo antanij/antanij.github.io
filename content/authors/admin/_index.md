@@ -10,7 +10,7 @@ interests:
   - Cancer Biology
   - Imaging Technology
   - Biomedical Engineering
-  - Antibiotic Resistance
+  - Antimicrobial Resistance
 social:
   - icon: envelope
     icon_pack: fas
