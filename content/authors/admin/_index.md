@@ -46,7 +46,7 @@ email: ""
 superuser: true
 highlight_name: false
 ---
-I am currently studying how bacteriophages, the **viruses of bacteria**, interact with their hosts. This research will be useful in the development of phage therapy strategies to battle antimicrobial resistance - a leading cause of death and disease.
+I am currently studying how bacteriophages, the **viruses of bacteria**, interact with their hosts. This research will be useful in the development of phage therapy strategies to battle antimicrobial resistance - an imminent public health fiasco.
 
 At Yale, I have a joint appointment within two labs:
 
