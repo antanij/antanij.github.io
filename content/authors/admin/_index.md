@@ -46,14 +46,16 @@ email: ""
 superuser: true
 highlight_name: false
 ---
-I am currently studying the physics of how **bacteriophages, the viruses of bacteria**, interact with their hosts. What we learn from this research will be useful in the development of phage therapy strategies to battle antibiotic infections. At Yale, I have a joint appointment within two labs:
+I am currently studying how bacteriophages, the **viruses of bacteria**, interact with their hosts. This research will be useful in the development of phage therapy strategies to battle antimicrobial resistance - a leading cause of death and disease.
+
+At Yale, I have a joint appointment within two labs:
 
 * [Paul Turner Lab](https://turnerlab.yale.edu/), Department of Ecology & Evolutionary Biology
-* [Thierry Emonet Lab](http://emonet.biology.yale.edu/), Molecular, Cellular and Developmental Biology
+* [Thierry Emonet Lab](http://emonet.biology.yale.edu/), Molecular, Cellular, and Developmental Biology
 
-My PhD research was in [Pushkar Lele Lab](http://pushkarlelelab.org/) at Texas A&M University. It focused on the physics of how bacteria move and sense their surroundings. The fundamental biophysics of these micro- and nanoscopic processes is important for understanding how diseases spread. My dissertation (2021) is titled **Sensory Functions of the Bacterial Flagellar Motor**. 
+My PhD research was in [Pushkar Lele Lab](http://pushkarlelelab.org/) at Texas A&M University. It focused on the physics of how bacteria move and sense their surroundings. My dissertation (2021) is titled **Sensory Functions of the Bacterial Flagellar Motor**. 
 
-In my research, I use a variety of techniques consisting molecular biology, phase and fluorescence microscopy, image analysis, particle tracking, and prototyping (3D-printed chambers and microfluidic devices). Some of my work has been published and is linked below.
+I use a variety of techniques consisting molecular biology, phase and fluorescence microscopy, image analysis, particle tracking, and prototyping (3D-printed chambers and microfluidic devices). Some of my work has been published and is linked below.
 
 I am passionate about #OpenScience and science outreach. To this end, I write for [LabLeaks](http://lableaks.org/), a fun(ny), biweekly newsletter bringing the latest scientific research to a general audience.
 
