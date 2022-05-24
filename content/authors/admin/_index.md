@@ -39,7 +39,7 @@ education:
     - course: Ph.D. in Chemical Engineering
       institution: Texas A&M University
       year: 2021
-    - course: B.Tech. with Honours in Chemical Engineering
+    - course: Bachelor of Technology with Honours in Chemical Engineering
       year: 2016
       institution: IIT Bombay
 email: ""
