@@ -8,7 +8,7 @@ interests:
   - Antimicrobial Resistance
   - Biophysics
   - Virology
-  - Cancer Biology
+  - Genetic Technology
   - Imaging Technology
   - Biomedical Engineering
 social:
