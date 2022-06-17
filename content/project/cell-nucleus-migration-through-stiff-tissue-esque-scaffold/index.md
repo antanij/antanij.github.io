@@ -5,10 +5,10 @@ draft: false
 featured: false
 external_link: https://doi.org/10.1101/2022.03.10.483838
 links:
-  - url: https://doi.org/10.1101/2022.03.10.483838
-    name: Preprint
+  - url: https://doi.org/10.1002/advs.202201248
+    name: Advanced Science article
   - name: PDF
-    url: https://antanij.netlify.app/media/Katiyar_et_al_drop-like_nucleus.pdf
+    url: https://antanij.netlify.app/media/Katiyar_et_al_Drop-like_Nucleus.pdf
 image:
   filename: featured.png
   focal_point: Smart
