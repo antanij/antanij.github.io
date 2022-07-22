@@ -10,7 +10,7 @@ links:
   - url: https://antanij.netlify.app/media/Ford_et_al_2018_swarming.pdf
     name: PDF
 image:
-  filename: featured
+  filename: featured.jpg
   focal_point: Smart
   preview_only: false
 ---
