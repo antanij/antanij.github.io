@@ -1,0 +1,17 @@
+---
+title: Directional Changes & Flagellar Motor Torque in Swarming cells of E. coli
+date: 2018-11-15T15:15:00.000Z
+draft: false
+featured: false
+external_link: https://doi.org/10.3389/fmicb.2018.02197
+links:
+  - url: https://doi.org/10.3389/fmicb.2018.02197
+    name: Front Microbiol Manuscript
+  - url: https://antanij.netlify.app/media/Ford_et_al_2018_swarming.pdf
+    name: PDF
+image:
+  filename: featured
+  focal_point: Smart
+  preview_only: false
+---
+Bacterial cells in urinary tract infections perform collective motion on top of the host-substrate. We studied the motors that provide the thrust during this motion.
