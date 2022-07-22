@@ -1,5 +1,5 @@
 ---
-title: Directional Changes & Flagellar Motor Torque in Swarming cells of E. coli
+title: Directional changes & flagellar motor torque in swarming cells of E. coli
 date: 2018-11-15T15:15:00.000Z
 draft: false
 featured: false
