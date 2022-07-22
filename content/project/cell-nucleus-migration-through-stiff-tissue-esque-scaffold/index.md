@@ -6,7 +6,7 @@ featured: false
 external_link: https://doi.org/10.1101/2022.03.10.483838
 links:
   - url: https://doi.org/10.1002/advs.202201248
-    name: Advanced Science article
+    name: Advanced Science Article
   - name: PDF
     url: https://antanij.netlify.app/media/Katiyar_et_al_2022_Drop-like_Nucleus.pdf
 image:
