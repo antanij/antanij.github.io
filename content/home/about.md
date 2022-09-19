@@ -8,6 +8,6 @@ active: true
 author: admin
 design:
   background:
-    image: featured.png
+    image: ""
     text_color_light: false
 ---
