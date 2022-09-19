@@ -8,5 +8,6 @@ active: true
 author: admin
 design:
   background:
-    image: phage_bac.jpg
+    image: featured.png
+    text_color_light: false
 ---
