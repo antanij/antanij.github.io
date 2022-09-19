@@ -48,6 +48,8 @@ highlight_name: false
 ---
 I am currently studying how bacteriophages, the **viruses of bacteria**, interact with their hosts. This research will be useful in the development of phage therapy strategies to battle **antimicrobial resistance** - an imminent public health fiasco.
 
+![](phage-bacteria-microscopy-feature.png)
+
 At Yale, I have a joint appointment within two labs:
 
 * [Paul Turner Lab](https://turnerlab.yale.edu/), Department of Ecology & Evolutionary Biology
