@@ -5,11 +5,11 @@ avatar_filename: avatar.jpg
 bio: "Research interests: biophysics | virology | flagellar motors | imaging
   technology"
 interests:
+  - Microscopy
   - Antimicrobial Resistance
   - Biophysics
   - Virology
   - Genetic Technology
-  - Imaging Technology
   - Biomedical Engineering
 social:
   - icon: envelope
