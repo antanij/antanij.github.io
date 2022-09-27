@@ -18,8 +18,8 @@ social:
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/AntaniJo
-  - icon: graduation-cap
-    icon_pack: fas
+  - icon: google-scholar
+    icon_pack: ai
     link: https://scholar.google.com/citations?user=rR08FJAAAAAJ&hl
   - icon: linkedin
     icon_pack: fab
@@ -29,6 +29,26 @@ social:
     link: https://www.facebook.com/jyotani
     icon_pack: fab
     icon: facebook
+  - display:
+      header: false
+    icon_pack: ai
+    icon: orcid
+    link: https://orcid.org/0000-0002-7402-983X
+  - display:
+      header: false
+    link: http://www.webofscience.com/wos/author/record/ABD-2323-2021
+    icon_pack: ai
+    icon: publons
+  - display:
+      header: false
+    link: https://www.researchgate.net/profile/Jyot-Antani
+    icon_pack: ai
+    icon: researchgate
+  - display:
+      header: false
+    link: https://www.scopus.com/authid/detail.uri?authorId=57204284025#
+    icon_pack: ai
+    icon: scopus
 organizations:
   - name: Yale University
     url: ""
