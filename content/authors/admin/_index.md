@@ -26,11 +26,6 @@ social:
     link: https://www.linkedin.com/in/jyotantani
   - display:
       header: false
-    link: https://www.facebook.com/jyotani
-    icon_pack: fab
-    icon: facebook
-  - display:
-      header: false
     icon_pack: ai
     icon: orcid
     link: https://orcid.org/0000-0002-7402-983X
