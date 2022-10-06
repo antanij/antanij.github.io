@@ -16,7 +16,7 @@
 [[main]]
   name = "Research Mentees"
   url = "#talks"
-  weight = 40
+  weight = 30
 
 [[main]]
   name = "Google Scholar"
@@ -26,7 +26,7 @@
 [[main]]
   name = "Science Outreach"
   url = "#posts"
-  weight = 30
+  weight = 40
 
 #[[main]]
 #  name = "Contact"
