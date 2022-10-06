@@ -2,8 +2,8 @@
 widget: portfolio
 widget_id: mentees
 headless: true
-weight: 65
-title: Published Work
+weight: 40
+title: Research Mentees
 subtitle: ""
 content:
   page_type: project
