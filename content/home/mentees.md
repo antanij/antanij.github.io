@@ -1,6 +1,6 @@
 ---
 widget: portfolio
-widget_id: mentees
+widget_id: projects
 headless: true
 weight: 40
 title: Research Mentees
