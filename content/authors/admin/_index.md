@@ -65,7 +65,7 @@ I am currently studying how bacteriophages, the **viruses of bacteria**, interac
 
 ![phage-bacteria, microscopy, tracking](/media/phage_bac.jpg)
 
-At Yale, I have a joint appointment within two labs:
+At Yale, I work within two labs
 
 * [Paul Turner Lab](https://turnerlab.yale.edu/), Department of Ecology & Evolutionary Biology
 * [Thierry Emonet Lab](http://emonet.biology.yale.edu/), Molecular, Cellular, and Developmental Biology
