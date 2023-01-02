@@ -16,4 +16,6 @@ The specific target audience for this document are students from the same bachel
 Here is the link: \
 [tinyurl.com/apping-guide-jyot ](https://tinyurl.com/apping-guide-jyot)
 
-If you need guidance about a postdoc application, feel free to reach out. I enjoyed this process even more than a PhD application! I may or may not write a guide about it in the future.
+Caution: The contents of this guide are not up-to-date. It is highly recommended to get in touch with folks who applied for a PhD position recently.  
+
+If you need guidance about a postdoc application, feel free to reach out. I enjoyed this process even more than a PhD application!
