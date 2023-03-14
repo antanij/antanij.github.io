@@ -21,6 +21,4 @@ This project was funded by the MBL Alumni ROCS -[ ](https://www.mbl.edu/educatio
 
 ![](img_3122.jpg)
 
-![]()
-
 ![](img_3115.jpg)
