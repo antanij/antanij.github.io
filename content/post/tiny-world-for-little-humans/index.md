@@ -15,7 +15,7 @@ Taught [Foldscope](https://foldscope.com) (cost-effective paper microscopes) to 
 
 F﻿or the *quantitative* part of the microscopy, the students were introduced to calibration slides for calculating the actual sizes of samples. 
 
-This project was funded by the MBL Alumni ROCS -[ ](https://www.mbl.edu/education/advanced-research-training-courses/mbl-alumni-rocs)Marine Biological Laboratory Regional Outreach and Communication in STEM.
+This project was funded by the MBL Alumni ROCS -[](https://www.mbl.edu/education/advanced-research-training-courses/mbl-alumni-rocs)Marine Biological Laboratory Regional Outreach and Communication in STEM.
 
 <!--EndFragment-->
 
