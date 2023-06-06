@@ -9,6 +9,10 @@ links:
     name: Annu Rev Virology
   - url: https://antanij.netlify.app/media/Oromí-Bosch_Antani_Turner_2023_BacterialResistance_PhageTherapy.pdf
     name: PDF
+  - url: https://twitter.com/AntaniJo/status/1666091027860684800
+    name: Twitter Summary
+    icon_pack: fab
+    icon: twitter
 image:
   filename: featured.png
   focal_point: Smart
