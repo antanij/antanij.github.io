@@ -7,8 +7,12 @@ external_link: https://doi.org/10.1146/annurev-virology-012423-110530
 links:
   - url: https://doi.org/10.1146/annurev-virology-012423-110530
     name: Annu Rev Virology
+    icon_pack: ai
+    icon: doi
   - url: https://antanij.netlify.app/media/Oromí-Bosch_Antani_Turner_2023_BacterialResistance_PhageTherapy.pdf
     name: PDF
+    icon_pack: fas
+    icon: file-pdf
   - url: https://twitter.com/AntaniJo/status/1666091027860684800
     name: Twitter Summary
     icon_pack: fab
