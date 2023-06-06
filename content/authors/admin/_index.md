@@ -33,7 +33,7 @@ social:
       header: false
     link: http://www.webofscience.com/wos/author/record/ABD-2323-2021
     icon_pack: ai
-    icon: publons
+    icon: clarivate
   - display:
       header: false
     link: https://www.researchgate.net/profile/Jyot-Antani
