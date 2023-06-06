@@ -7,10 +7,16 @@ external_link: https://www.nature.com/articles/s41467-021-25774-2
 links:
   - url: https://twitter.com/AntaniJo/status/1422338249025105922
     name: Tweetorial
+    icon_pack: fab
+    icon: twitter
   - url: https://www.nature.com/articles/s41467-021-25774-2
     name: Nature Communications Article
+    icon_pack: ai
+    icon: doi
   - url: https://antanij.netlify.app/media/Antani_et_al_2021_mechanosensing_Ecoli.pdf
     name: PDF
+    icon_pack: fas
+    icon: file-pdf
 image:
   filename: featured.png
   focal_point: Smart
