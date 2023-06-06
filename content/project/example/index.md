@@ -16,8 +16,12 @@ links:
     icon: twitter
   - url: https://elifesciences.org/articles/63936
     name: eLife Article
+    icon_pack: ai
+    icon: doi
   - url: https://antanij.netlify.app/media/Antani_et_al_eLife_2021.pdf
     name: PDF
+    icon_pack: fas
+    icon: file-pdf
 image:
   caption: ""
   focal_point: Smart
