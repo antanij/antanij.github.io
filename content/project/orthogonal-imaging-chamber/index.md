@@ -7,8 +7,12 @@ external_link: https://doi.org/10.1111/jmi.12965
 links:
   - url: https://doi.org/10.1111/jmi.12965
     name: J Microsc Manuscript
+    icon_pack: ai
+    icon: doi
   - url: https://antanij.netlify.app//media/Katiyar_Antani_orthogonal_imaging_chamber.pdf
     name: PDF
+    icon_pack: fas
+    icon: file-pdf
 image:
   filename: featured.png
   focal_point: Smart
