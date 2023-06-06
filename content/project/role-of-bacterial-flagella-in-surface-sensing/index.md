@@ -9,6 +9,8 @@ links:
     name: Topical Review Article
   - url: https://antanij.netlify.app//media/Wong_Antani_et_al_Phys_Biol_2021.pdf
     name: PDF
+    icon_pack: fas
+    icon: file-pdf
 image:
   filename: featured.png
   focal_point: Smart
