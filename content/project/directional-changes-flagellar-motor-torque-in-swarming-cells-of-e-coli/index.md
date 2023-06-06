@@ -7,8 +7,12 @@ external_link: https://doi.org/10.3389/fmicb.2018.02197
 links:
   - url: https://doi.org/10.3389/fmicb.2018.02197
     name: Front Microbiol Article
+    icon_pack: ai
+    icon: doi
   - url: https://antanij.netlify.app/media/Ford_et_al_2018_swarming.pdf
     name: PDF
+    icon_pack: fas
+    icon: file-pdf
 image:
   filename: featured.jpg
   focal_point: Smart
