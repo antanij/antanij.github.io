@@ -69,10 +69,10 @@ At Yale, I am affiliated with the following entities:
 
 * [Paul Turner Lab](https://turnerlab.yale.edu/), Department of Ecology & Evolutionary Biology
 * [C﻿enter for Phage Biology and Therapy at Yale](http://www.yalephagecenter.com/)
-* [Q﻿uantitative Biology Institute](https://qbio.yale.edu/)
+* [Y﻿ale Quantitative Biology Institute](https://qbio.yale.edu/)
 * Close collaboration with [Thierry Emonet Lab](http://emonet.biology.yale.edu/), Molecular, Cellular, and Developmental Biology
 
-My PhD research was in [Pushkar Lele Lab](http://pushkarlelelab.org/) at Texas A&M University. It focused on the physics of how bacteria move and sense their surroundings. My dissertation (2021) is titled **Sensory Functions of the Bacterial Flagellar Motor**. 
+My PhD research was in [Pushkar Lele Lab](http://pushkarlelelab.org/) at Texas A&M University. It focused on the physics of how bacteria move and sense their surroundings. My thesis dissertation (2021) was titled [Sensory Functions of the Bacterial Flagellar Motor](https://hdl.handle.net/1969.1/195225). 
 
 I use a variety of techniques consisting molecular biology, phase and fluorescence microscopy, image analysis, particle tracking, and prototyping (3D-printed chambers and microfluidic devices). Some of my work has been published and is linked below.
 
