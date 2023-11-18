@@ -76,7 +76,7 @@ My PhD research was in [Pushkar Lele Lab](http://pushkarlelelab.org/) at Texas A
 
 I use a variety of techniques consisting molecular biology, phase and fluorescence microscopy, image analysis, particle tracking, and prototyping (3D-printed chambers and microfluidic devices). Some of my work has been published and is linked below.
 
-I took an advanced summer course on microscopy in 2022: [Optical Microscopy & Imaging in the Biomedical Sciences](https://www.mbl.edu/education/advanced-research-training-courses/course-offerings/optical-microscopy-imaging-biomedical-sciences) at Marine Biological Laboratories, Woods Hole, MA (USA). I, I am going back as a course facilitator (TA). Having fallen in love with the course, I went back as a Research Facilitator in 2023. 
+I took an advanced summer course on microscopy in 2022: [Optical Microscopy & Imaging in the Biomedical Sciences](https://www.mbl.edu/education/advanced-research-training-courses/course-offerings/optical-microscopy-imaging-biomedical-sciences) at Marine Biological Laboratories, Woods Hole, MA (USA). Having fallen in love with the course, I went back as a Research Facilitator in 2023. 
 
 I am passionate about science outreach. To this end, I use [Foldscopes](https://foldscope.com/) to teach local middle school students about microscopy.
 
