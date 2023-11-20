@@ -36,11 +36,6 @@ social:
     icon: publons
   - display:
       header: false
-    link: https://www.researchgate.net/profile/Jyot-Antani
-    icon_pack: ai
-    icon: researchgate
-  - display:
-      header: false
     link: https://www.scopus.com/authid/detail.uri?authorId=57204284025#
     icon_pack: ai
     icon: scopus
