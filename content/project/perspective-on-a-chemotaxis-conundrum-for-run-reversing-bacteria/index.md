@@ -1,6 +1,6 @@
 ---
 title: Perspective on a chemotaxis conundrum for run-reversing bacteria
-date: 2024-01-02T21:59:09.017Z
+date: 2018-01-01T21:59:00.000Z
 draft: false
 featured: false
 external_link: https://doi.org/10.1146/annurev-chembioeng-100722-114625
