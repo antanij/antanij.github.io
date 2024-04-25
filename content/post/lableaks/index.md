@@ -8,10 +8,10 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-LabLeaks is a biweekly mailing list that talks about the latest science. 
+LabLeaks was a biweekly mailing list that talked about the latest science. 
 
-It is an effort by a few scientists who are passionate about open science communication, and who think that they are hilarious. 
+It was an effort by a few scientists who were passionate about open science communication, and who thought that they were (are) hilarious. 
 
-I am one of those scientists. 
+I became one of those scientists, for a while.
 
-Check us out at [LabLeaks.org](http://lableaks.org/). Subscribe if you like what you see!
+Eventually, the voluntary activity became too much of a commitment for early-career scientists who are already paid meager wages. We had to commit our time and money into other things and our site [LabLeaks.org](http://lableaks.org/) was shut down.
