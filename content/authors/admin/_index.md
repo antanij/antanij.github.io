@@ -1,7 +1,7 @@
 ---
 title: Jyot Antani, PhD
 role: Postdoctoral Associate
-avatar_filename: avatar.jpg
+avatar_filename: avatar.png
 bio: "Research interests: biophysics | virology | flagellar motors | imaging
   technology"
 interests:
