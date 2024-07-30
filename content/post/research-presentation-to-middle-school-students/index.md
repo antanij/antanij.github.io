@@ -10,11 +10,11 @@ image:
 ---
 <!--StartFragment-->
 
-I presented my journey in science and my research to middle school kids, in Feb 2022.
+I often volunteer with [The Open Labs at Yale](https://theopenlabs.sites.yale.edu/) and [Yale SACNAS](https://ysacnas.wixsite.com/ysacnas) for outreach to the local community in New Haven.
 
-Honored to have this fun opportunity to talk to curious young minds, organized by grad students of Yale University and [The Open Labs](https://theopenlabs.sites.yale.edu/)!
+For example, I recently presented my postdoctoral work as part of [Flipped Science Fair](https://sciencediplomats.sites.yale.edu/what-we-do/flipped-science-fair).
 
-If you (and/or your kid) are interested in learning how bacteria move and sense their surroundings, [check out the recording on YouTube](https://www.youtube.com/watch?v=vnAH7Ot8w_I&ab_channel=Open_Labs).
+In 2022, I presented my journey in science and my research to middle school kids. If you (and/or your kid) are interested in learning how bacteria move and sense their surroundings, [check out the recording on YouTube](https://www.youtube.com/watch?v=vnAH7Ot8w_I&ab_channel=Open_Labs).
 
 <!--StartFragment-->
 
