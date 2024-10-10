@@ -1,5 +1,5 @@
 ---
-title: A microscopic way to measure virus attachment
+title: Microscopic measurements of virus attachment
 date: 2024-10-10T14:12:37.556Z
 draft: false
 featured: false
