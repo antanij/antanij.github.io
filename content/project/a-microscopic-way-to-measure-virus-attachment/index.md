@@ -9,6 +9,10 @@ links:
     url: https://doi.org/10.1101/2024.10.09.617072
     icon_pack: ai
     icon: doi
+  - url: static/media/Antani_et_al_Microscopic_Phage_Adsorption_assay_2024.pdf
+    name: PDF
+    icon_pack: ai
+    icon: pdf
 image:
   filename: featured.png
   focal_point: Smart
