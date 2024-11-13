@@ -17,7 +17,7 @@ social:
     link: mailto:jyot.antani@yale.edu
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/AntaniJo
+    link: "@antanij.bsky.social"
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=rR08FJAAAAAJ&hl
