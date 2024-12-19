@@ -3,7 +3,7 @@ title: A microscopic way to measure virus attachment
 date: 2024-10-10T14:12:37.556Z
 draft: false
 featured: false
-external_link: https://doi.org/10.1101/2024.10.09.617072
+external_link: https://www.pnas.org/doi/10.1073/pnas.2410905121
 links:
   - name: PNAS Article
     url: https://www.pnas.org/doi/10.1073/pnas.2410905121
