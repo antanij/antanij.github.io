@@ -5,11 +5,12 @@ draft: false
 featured: false
 external_link: https://doi.org/10.1101/2024.10.09.617072
 links:
-  - name: preprint
-    url: https://doi.org/10.1101/2024.10.09.617072
+  - name: PNAS Article
+    url: https://www.pnas.org/doi/10.1073/pnas.2410905121
     icon_pack: ai
     icon: doi
-  - url: https://antanij.netlify.app/media/Antani_et_al_Microscopic_Phage_Adsorption_assay_2024.pdf
+  - url: https://antanij.netlify.app/media/Antani_et
+      al_Microscopic_Phage_Adsorption_Assay_2024.pdf
     name: PDF
     icon_pack: ai
     icon: pdf
