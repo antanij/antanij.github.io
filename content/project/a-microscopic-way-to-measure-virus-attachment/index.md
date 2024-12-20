@@ -13,6 +13,10 @@ links:
     name: PDF
     icon_pack: ai
     icon: pdf
+  - url: https://bsky.app/profile/antanij.bsky.social/post/3ldov7fbmek24
+    name: BlueSky Thread
+    icon_pack: ai
+    icon: twitter
 image:
   filename: featured.png
   focal_point: Smart
