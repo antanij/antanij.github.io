@@ -15,7 +15,7 @@ links:
     icon: pdf
   - url: https://bsky.app/profile/antanij.bsky.social/post/3ldov7fbmek24
     name: BlueSky Thread
-    icon_pack: ai
+    icon_pack: fab
     icon: twitter
 image:
   filename: featured.png
