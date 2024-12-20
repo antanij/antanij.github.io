@@ -11,8 +11,8 @@ links:
     icon: doi
   - url: https://antanij.netlify.app/media/Antani_et_al_Microscopic_Phage_Adsorption_Assay_2024.pdf
     name: PDF
-    icon_pack: ai
-    icon: pdf
+    icon_pack: fas
+    icon: file-pdf
   - url: https://bsky.app/profile/antanij.bsky.social/post/3ldov7fbmek24
     name: BlueSky Thread
     icon_pack: fab
