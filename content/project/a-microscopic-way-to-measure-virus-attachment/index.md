@@ -17,6 +17,9 @@ links:
     name: BlueSky Thread
     icon_pack: fab
     icon: twitter
+  - url: https://news.yale.edu/2025/04/15/new-tool-offers-insights-virus-cell-interactions
+    name: YaleNews
+    icon_pack: null
 image:
   filename: featured.png
   focal_point: Smart
