@@ -24,7 +24,7 @@ links:
   - icon_pack: fas
     icon: film
     name: Local News (Gujarati)
-    url: static/media/DivyaBhaskar_Antani_2025.pdf
+    url: https://antanij.netlify.app/media/DivyaBhaskar_Antani_2025.pdf
 image:
   filename: featured.png
   focal_point: Smart
