@@ -19,7 +19,8 @@ links:
     icon: twitter
   - url: https://news.yale.edu/2025/04/15/new-tool-offers-insights-virus-cell-interactions
     name: YaleNews
-    icon_pack: null
+    icon_pack: fas
+    icon: film
 image:
   filename: featured.png
   focal_point: Smart
