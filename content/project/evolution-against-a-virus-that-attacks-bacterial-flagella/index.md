@@ -20,4 +20,4 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-<!--StartFragment-->χ<!--EndFragment-->-phage can only infect *E. coli* with functional rotating flagella- so cool!! I am studying what happens when bacteria are forced to evolve against this phage. This work is unpublished but linked here is an article featuring a conference presentation.
+Phage <!--StartFragment-->χ<!--EndFragment--> can only infect \*E. coli\* with functional rotating flagella!! We studied what happens when bacteria are forced to evolve against this phage. We found: some bacteria swim slower, but some swim faster!
