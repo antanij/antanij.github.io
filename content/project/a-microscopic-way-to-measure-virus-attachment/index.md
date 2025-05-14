@@ -24,7 +24,7 @@ links:
   - url: https://www.youtube.com/watch?v=yEmuUIG9FzE
     name: YouTube (Yale Scientific Magazine)
     icon_pack: fab
-    icon: YouTube
+    icon: youtube
   - icon_pack: fas
     icon: film
     name: Local News (Gujarati)
