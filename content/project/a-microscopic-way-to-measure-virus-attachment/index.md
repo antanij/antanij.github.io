@@ -25,6 +25,10 @@ links:
     icon: film
     name: Local News (Gujarati)
     url: https://antanij.netlify.app/media/DivyaBhaskar_Antani_2025.pdf
+  - url: https://www.youtube.com/watch?v=yEmuUIG9FzE
+    name: YouTube (Yale Scientific Magazine)
+    icon_pack: fab
+    icon: YouTube
 image:
   filename: featured.png
   focal_point: Smart
