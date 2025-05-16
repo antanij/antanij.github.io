@@ -1,6 +1,6 @@
 ---
 title: Evolution against a virus that attacks bacterial flagella
-date: 2023-05-24T16:51:29.730Z
+date: 2025-05-16T13:32:28.669Z
 draft: false
 featured: false
 external_link: https://www.biorxiv.org/content/10.1101/2025.05.06.652435v1
