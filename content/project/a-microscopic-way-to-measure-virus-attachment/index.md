@@ -33,6 +33,10 @@ links:
     icon: film
     name: Times of India
     url: https://timesofindia.indiatimes.com/city/ahmedabad/amdavadi-scientist-at-yale-aims-to-combat-amr-bacteria-using-viruses/articleshow/121554936.cms
+  - name: Layperson summary
+    url: https://www.journaloflifesciences.org/archives/1561/glowing-viruses-how-strong-is-their-grip.htm
+    icon_pack: fas
+    icon: person
 image:
   filename: featured.png
   focal_point: Smart
