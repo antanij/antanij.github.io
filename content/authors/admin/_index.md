@@ -20,7 +20,7 @@ social:
     link: https://bsky.app/profile/antanij.bsky.social
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/citations?hl=en&user=3S_V-uoAAAAJ
+    link: https://scholar.google.com/citations?user=3S_V-uoAAAAJ
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/jyotantani
