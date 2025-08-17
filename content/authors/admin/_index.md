@@ -58,7 +58,7 @@ highlight_name: false
 ---
 I am currently studying how bacteriophages, the **viruses of bacteria**, interact with their hosts. This research will be useful in the development of **phage therapy** strategies to battle **antimicrobial resistance** - an imminent public health fiasco.
 
-![phage-bacteria, microscopy, tracking](/media/phage_bac.jpg)
+![phage-bacteria, microscopy, tracking](feature_with_bacburst.gif)
 
 At Yale, I am affiliated with the following entities:
 
