@@ -1,6 +1,6 @@
 ---
 title: Jyot Antani, PhD
-role: Associate Research Scientist
+role: Scientist
 avatar_filename: avatar.jpg
 bio: "Research interests: biophysics | virology | flagellar motors | imaging
   technology"
