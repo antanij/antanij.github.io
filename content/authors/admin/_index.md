@@ -38,7 +38,7 @@ social:
       header: false
     link: https://www.scopus.com/authid/detail.uri?authorId=57204284025#
     icon_pack: ai
-    icon: scopus
+    icon: clarivate
 organizations:
   - name: Yale University
     url: ""
