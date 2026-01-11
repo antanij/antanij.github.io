@@ -33,12 +33,12 @@ social:
       header: false
     link: http://www.webofscience.com/wos/author/record/ABD-2323-2021
     icon_pack: ai
-    icon: publons
+    icon: clarivate
   - display:
       header: false
     link: https://www.scopus.com/authid/detail.uri?authorId=57204284025#
     icon_pack: ai
-    icon: clarivate
+    icon: scopus
 organizations:
   - name: Yale University
     url: ""
