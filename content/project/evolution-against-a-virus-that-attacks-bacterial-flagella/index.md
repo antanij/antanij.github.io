@@ -11,6 +11,8 @@ links:
     icon: doi
   - url: https://asm.org/Magazine/2023/Spring/Friends-Foes-Microbial-Interactions-Infections
     name: ASM Microcosm Article
+    icon_pack: fas
+    icon: bacteria
   - icon_pack: fas
     icon: file-pdf
     name: PDF
