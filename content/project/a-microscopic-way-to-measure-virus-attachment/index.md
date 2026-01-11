@@ -36,7 +36,7 @@ links:
   - name: Layperson summary
     url: https://www.journaloflifesciences.org/archives/1561/glowing-viruses-how-strong-is-their-grip.htm
     icon_pack: fas
-    icon: person
+    icon: user
 image:
   filename: featured.png
   focal_point: Smart
