@@ -33,7 +33,7 @@ social:
       header: false
     link: http://www.webofscience.com/wos/author/record/ABD-2323-2021
     icon_pack: ai
-    icon: clarivate
+    icon: scopus
   - display:
       header: false
     link: https://www.scopus.com/authid/detail.uri?authorId=57204284025#
