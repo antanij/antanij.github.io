@@ -16,7 +16,7 @@ links:
   - icon_pack: fas
     icon: file-pdf
     name: PDF
-    url: https://antanij.netlify.app/media/antani_chiphage_biorxiv.pdf
+    url: https://antanij.netlify.app/media/Antani_chiphage_bioRxiv.pdf
 image:
   filename: featured.png
   focal_point: Smart
