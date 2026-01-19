@@ -5,7 +5,7 @@ draft: false
 featured: false
 external_link: https://www.biorxiv.org/content/10.1101/2025.05.06.652435v2
 links:
-  - url: https://www.biorxiv.org/content/10.1101/2025.05.06.652435v2
+  - url: https://www.biorxiv.org/content/10.1101/2025.05.06.652435v3
     name: preprint (bioRxiv)
     icon_pack: ai
     icon: doi
