@@ -22,4 +22,4 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-N﻿ew England Biolabs (NEB) developed a Golden Gate method to engineer synthetic bacteriophages. I validated the expression of fluorescent proteins engineered into these genomes.
+N﻿ew England Biolabs (NEB) developed a Golden Gate method to engineer synthetic bacteriophages. I validated the expression of fluorescent proteins engineered into synthetic phage genomes.
