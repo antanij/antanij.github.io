@@ -18,7 +18,7 @@ links:
     icon_pack: fas
     icon: film
 image:
-  filename: https://upload.wikimedia.org/wikipedia/en/4/43/New_England_Biolabs_logo.svg
+  filename: featured.png
   focal_point: Smart
   preview_only: false
 ---
