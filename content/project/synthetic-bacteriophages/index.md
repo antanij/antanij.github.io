@@ -13,6 +13,10 @@ links:
     name: Phys.org
     icon_pack: fas
     icon: film
+  - url: https://antanij.netlify.app/media/NEB_PNAS_2026.pdf
+    name: PDF
+    icon_pack: fas
+    icon: file-pdf
 image:
   filename: https://upload.wikimedia.org/wikipedia/en/4/43/New_England_Biolabs_logo.svg
   focal_point: Smart
