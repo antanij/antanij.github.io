@@ -17,6 +17,10 @@ links:
     name: PDF
     icon_pack: fas
     icon: file-pdf
+  - url: https://stories.tamu.edu/news/2021/09/15/to-colonize-different-environments-bacteria-precisely-tune-their-nanomotors/
+    name: Texas A&M Stories
+    icon_pack: fas
+    icon: film
 image:
   filename: featured.png
   focal_point: Smart
