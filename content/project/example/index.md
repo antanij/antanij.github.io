@@ -22,7 +22,7 @@ links:
     name: PDF
     icon_pack: fas
     icon: file-pdf
-  - url: https://stories.tamu.edu/news/2021/09/15/to-colonize-different-environments-bacteria-precisely-tune-their-nanomotors/
+  - url: https://stories.tamu.edu/news/2021/02/08/a-novel-approach-to-determine-how-carcinogenic-bacteria-find-their-targets/
     name: Texas A&M Stories
     icon_pack: fas
     icon: film
