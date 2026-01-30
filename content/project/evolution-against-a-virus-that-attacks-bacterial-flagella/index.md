@@ -3,7 +3,7 @@ title: Evolution against a virus that attacks bacterial flagella
 date: 2025-05-16T13:32:28.669Z
 draft: false
 featured: false
-external_link: https://www.biorxiv.org/content/10.1101/2025.05.06.652435v2
+external_link: https://www.biorxiv.org/content/10.1101/2025.05.06.652435v3
 links:
   - url: https://www.biorxiv.org/content/10.1101/2025.05.06.652435v3
     name: preprint (bioRxiv)
