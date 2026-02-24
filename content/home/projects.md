@@ -3,7 +3,7 @@ widget: portfolio
 widget_id: projects
 headless: true
 weight: 65
-title: Key Publications
+title: "Key Publications ([Full list link](https://scholar.google.com/citations?user=3S_V-uoAAAAJ))"
 subtitle: ""
 content:
   page_type: project
