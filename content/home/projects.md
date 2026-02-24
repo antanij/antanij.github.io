@@ -3,7 +3,7 @@ widget: portfolio
 widget_id: projects
 headless: true
 weight: 65
-title: Published Work
+title: Key Publications
 subtitle: ""
 content:
   page_type: project
