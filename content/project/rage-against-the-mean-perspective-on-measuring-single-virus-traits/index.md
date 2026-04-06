@@ -9,14 +9,14 @@ links:
     name: npj Viruses Article
     icon_pack: ai
     icon: doi
-  - url: https://bsky.app/profile/antanij.bsky.social/post/3mipbaa6qgc2m
-    icon_pack: fab
-    icon: twitter
-    name: BlueSky Post
   - url: https://antanij.netlify.app/media/Antani_Rage_Against_the_Mean_2026.pdf
     name: PDF
     icon_pack: fas
     icon: file-pdf
+  - url: https://bsky.app/profile/antanij.bsky.social/post/3mipbaa6qgc2m
+    icon_pack: fab
+    icon: twitter
+    name: BlueSky Post
 image:
   filename: featured.png
   focal_point: Smart
