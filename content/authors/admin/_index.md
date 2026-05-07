@@ -56,7 +56,7 @@ email: ""
 superuser: true
 highlight_name: false
 ---
-I engineer microscopy-based measurement workflows to quantify how viruses interact with their hosts, currently using bacteriophages (viruses of bacteria) as a high-throughput model system. I build end-to-end workflows spanning assay design, optical imaging, automated analysis, and rapid prototyping (3D-printed chambers/microfluidics). My current research supports the development of **phage therapy** strategies to combat **antimicrobial resistance**—a major public-health challenge. Some of my work has been published and is linked below.
+I engineer microscopy-based measurement workflows to quantify how viruses interact with their hosts, currently using bacteriophages (viruses of bacteria) as a high-throughput model system. This research supports the development of **phage therapy** strategies to combat **antimicrobial resistance**—a major public-health challenge. Some of my work has been published and is linked below.
 
 ![phage-bacteria, microscopy, tracking](/media/phage_bac.jpg)
 
