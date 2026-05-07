@@ -56,7 +56,7 @@ email: ""
 superuser: true
 highlight_name: false
 ---
-I am currently studying how bacteriophages, the **viruses of bacteria**, interact with their hosts. This research will be useful in the development of **phage therapy** strategies to battle **antimicrobial resistance** - an imminent public health fiasco.
+I engineer microscopy-based measurement workflows to quantify how viruses interact with their hosts, currently using bacteriophages (viruses of bacteria) as a high-throughput model system. I build end-to-end workflows spanning assay design, optical imaging, automated analysis, and rapid prototyping (3D-printed chambers/microfluidics). My current research supports the development of **phage therapy** strategies to combat **antimicrobial resistance**—a major public-health challenge. Some of my work has been published and is linked below.
 
 ![phage-bacteria, microscopy, tracking](/media/phage_bac.jpg)
 
@@ -69,11 +69,9 @@ At Yale, I am affiliated with the following entities:
 
 My PhD research was in [Pushkar Lele Lab](http://pushkarlelelab.org/) at Texas A&M University. It focused on the physics of how bacteria move and sense their surroundings. My thesis dissertation (2021) was titled [Sensory Functions of the Bacterial Flagellar Motor](https://hdl.handle.net/1969.1/195225). 
 
-I use a variety of techniques consisting molecular biology, phase and fluorescence microscopy, image analysis, particle tracking, and prototyping (3D-printed chambers and microfluidic devices). Some of my work has been published and is linked below.
-
 I took an advanced summer course on microscopy in 2022: [Optical Microscopy & Imaging in the Biomedical Sciences](https://www.mbl.edu/education/advanced-research-training-courses/course-offerings/optical-microscopy-imaging-biomedical-sciences) at Marine Biological Laboratories, Woods Hole, MA (USA). Having fallen in love with the course, I have been going back as a Research Facilitator.
 
-I am passionate about scientific outreach and service. To this end, I... 
+I contribute to scientific service and open science through editorial/society roles, method-sharing, and community outreach. To this end, I... 
 
 * serve on the editorial board of [mSystems](https://journals.asm.org/journal/msystems), a non-profit journal by the American Society for Microbiology ([ASM](https://asm.org/))
 * serve as a councilor at [ASM's Connecticut Valley Branch](https://sites.google.com/view/ctvalleybranchasm/home)
