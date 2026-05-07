@@ -73,6 +73,12 @@ I use a variety of techniques consisting molecular biology, phase and fluorescen
 
 I took an advanced summer course on microscopy in 2022: [Optical Microscopy & Imaging in the Biomedical Sciences](https://www.mbl.edu/education/advanced-research-training-courses/course-offerings/optical-microscopy-imaging-biomedical-sciences) at Marine Biological Laboratories, Woods Hole, MA (USA). Having fallen in love with the course, I have been going back as a Research Facilitator.
 
-I am passionate about science outreach. To this end, I use [Foldscopes](https://foldscope.com/) to teach local middle school students about microscopy.
+I am passionate about scientific outreach and service. To this end, I... 
+
+* serve on the editorial board of [mSystems](https://journals.asm.org/journal/msystems), a non-profit journal by the American Society for Microbiology ([ASM](https://asm.org/))
+* serve as a councilor at [ASM's Connecticut Valley Branch](https://sites.google.com/view/ctvalleybranchasm/home)
+* u﻿se [Foldscopes](https://foldscope.com/) to teach local middle school students about microscopy
+* have written [1 article](https://doi.org/pqns) (and counting) to explain my science to a high-school educated audience
+* made [a video](https://www.youtube.com/watch?v=8Ixnc2So3GE) explaining the protocol to make agarose pads for microscopic visualization of bacteria
 
 {{< icon name="download" pack="fas" >}} {{< staticref "media/CV_JAntani.pdf" "newtab" >}} Download my CV here{{< /staticref >}}.
