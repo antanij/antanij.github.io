@@ -66,7 +66,7 @@ At Yale, I am affiliated with the following entities:
 * [C﻿enter for Phage Biology and Therapy at Yale](https://phage.yale.edu/)
 * [Y﻿ale Quantitative Biology Institute](https://qbio.yale.edu/)
 * Closely collaborated with [Thierry Emonet Lab](http://emonet.biology.yale.edu/), Molecular, Cellular, and Developmental Biology
-* I recently joined [Joerg Bewersdorf Lab](https://bewersdorflab.yale.edu/) where I am performing image analysis on super-resolution microscopy datasets and learning to build new optical microscopy modalities
+* Recently joined [Joerg Bewersdorf Lab](https://bewersdorflab.yale.edu/) to perform image analysis on super-resolution microscopy datasets and to learn building new optical microscopy modalities
 
 My PhD research was in [Pushkar Lele Lab](http://pushkarlelelab.org/) at Texas A&M University. It focused on the physics of how bacteria move and sense their surroundings. My thesis dissertation (2021) was titled [Sensory Functions of the Bacterial Flagellar Motor](https://hdl.handle.net/1969.1/195225). 
 
