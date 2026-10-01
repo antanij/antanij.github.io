@@ -10,10 +10,11 @@ links:
     icon_pack: ai
     icon: doi
   - name: PDF
-    url: https://antanij.netlify.app/media/Katiyar_et_al_2022_Drop-like_Nucleus.pdf
+    url: /media/Katiyar_et_al_2022_Drop-like_Nucleus.pdf
     icon_pack: fas
     icon: file-pdf
 image:
+  alt_text: "Illustration for: Cell Nucleus Migration through Stiff Tissue-esque Scaffold"
   filename: featured.png
   focal_point: Smart
   preview_only: false

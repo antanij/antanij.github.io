@@ -5,6 +5,7 @@ date: 2025-05-23T13:55:56.893Z
 draft: false
 featured: false
 image:
+  alt_text: "Illustration for: Communicating Science to the Layperson"
   filename: featured
   focal_point: Smart
   preview_only: false

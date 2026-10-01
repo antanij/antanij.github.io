@@ -9,14 +9,18 @@ links:
     url: https://www.pnas.org/doi/10.1073/pnas.2410905121
     icon_pack: ai
     icon: doi
-  - url: https://antanij.netlify.app/media/Antani_et_al_Microscopic_Phage_Adsorption_Assay_2024.pdf
+  - url: /media/Antani_et_al_Microscopic_Phage_Adsorption_Assay_2024.pdf
     name: PDF
     icon_pack: fas
     icon: file-pdf
+  - url: /protocols/#phage-fluorescent-labeling
+    name: Phage labeling protocol
+    icon_pack: fas
+    icon: flask
   - url: https://bsky.app/profile/antanij.bsky.social/post/3ldov7fbmek24
     name: BlueSky Thread
-    icon_pack: fab
-    icon: twitter
+    icon_pack: custom
+    icon: bluesky
   - url: https://news.yale.edu/2025/04/15/new-tool-offers-insights-virus-cell-interactions
     name: YaleNews
     icon_pack: fas
@@ -28,7 +32,7 @@ links:
   - icon_pack: fas
     icon: film
     name: Local News (Gujarati)
-    url: https://antanij.netlify.app/media/DivyaBhaskar_Antani_2025.pdf
+    url: /media/DivyaBhaskar_Antani_2025.pdf
   - icon_pack: fas
     icon: film
     name: Times of India
@@ -38,6 +42,7 @@ links:
     icon_pack: fas
     icon: user
 image:
+  alt_text: "Illustration for: A microscopic way to measure virus attachment"
   filename: featured.png
   focal_point: Smart
   preview_only: false

@@ -24,3 +24,9 @@
   for = "index.xml"
   [headers.values]
     Content-Type = "application/rss+xml"
+
+# Old location of the phage labeling protocol -> new Experimental Protocols page
+[[redirects]]
+  from = "/media/antani_phage_labeling_protocol.txt"
+  to = "/protocols/#phage-fluorescent-labeling"
+  status = 301

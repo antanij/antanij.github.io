@@ -4,6 +4,7 @@ date: 2022-03-11T21:23:47.879Z
 draft: false
 featured: false
 image:
+  alt_text: "Illustration for: LabLeaks"
   filename: featured.png
   focal_point: Smart
   preview_only: false

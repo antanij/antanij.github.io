@@ -1,0 +1,22 @@
+{{- define "main" -}}
+{{/* A single protocol page, generated from a .md file in content/protocols/. */}}
+{{ $title := .Title | default (.File.BaseFileName | humanize) }}
+<article class="article protocol">
+  <div class="article-container pt-3">
+    <p class="mb-2"><a href="{{ .Parent.RelPermalink }}"><i class="fas fa-arrow-left mr-1"></i>{{ .Parent.Title }}</a></p>
+    <h1>{{ $title }}</h1>
+    {{ with .Params.subtitle }}<p class="page-subtitle">{{ . | markdownify }}</p>{{ end }}
+    <div class="article-metadata">
+      {{ with .GitInfo }}<span class="article-date">{{ i18n "last_updated" }} {{ $.Lastmod.Format site.Params.date_format }}</span><span class="middot-divider"></span>{{ end }}
+      <a href="javascript:window.print()"><i class="fas fa-print mr-1"></i>Print</a>
+    </div>
+  </div>
+
+  <div class="article-container">
+    <div class="article-style">
+      {{ .Content }}
+    </div>
+    {{ partial "page_footer" . }}
+  </div>
+</article>
+{{- end -}}

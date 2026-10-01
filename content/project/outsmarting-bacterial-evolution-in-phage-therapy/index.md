@@ -9,7 +9,7 @@ links:
     name: Annu Rev Virology Article
     icon_pack: ai
     icon: doi
-  - url: https://antanij.netlify.app/media/Oromí-Bosch_Antani_Turner_2023_BacterialResistance_PhageTherapy.pdf
+  - url: /media/Oromí-Bosch_Antani_Turner_2023_BacterialResistance_PhageTherapy.pdf
     name: PDF
     icon_pack: fas
     icon: file-pdf
@@ -18,6 +18,7 @@ links:
     icon_pack: fab
     icon: twitter
 image:
+  alt_text: "Illustration for: Outsmarting Bacterial Evolution in Phage Therapy"
   filename: featured.png
   focal_point: Smart
   preview_only: false

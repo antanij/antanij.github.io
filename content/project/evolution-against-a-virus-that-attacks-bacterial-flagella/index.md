@@ -16,8 +16,9 @@ links:
   - icon_pack: fas
     icon: file-pdf
     name: PDF
-    url: https://antanij.netlify.app/media/Antani_chiphage_bioRxiv.pdf
+    url: /media/Antani_chiphage_bioRxiv.pdf
 image:
+  alt_text: "Illustration for: Evolution against a virus that attacks bacterial flagella"
   filename: featured.png
   focal_point: Smart
   preview_only: false

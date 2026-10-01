@@ -1,0 +1,84 @@
+{{- define "main" -}}
+{{/*
+  Experimental Protocols listing (content/protocols/).
+  - Every .md file in content/protocols/ becomes its own page.
+  - Every .txt file in content/protocols/ is shown here as an expandable block,
+    and is also published as a raw file at /protocols/<filename>.txt.
+  - Titles come from the `title:` front matter of .md files, otherwise from the
+    file name (phage_growth.md -> "Phage growth").
+*/}}
+
+{{ partial "page_header.html" . }}
+
+<div class="universal-wrapper protocols">
+  {{ with .Content }}<div class="article-style mb-4">{{ . }}</div>{{ end }}
+
+  {{/* Collect .md pages and .txt files into one list, then sort by title. */}}
+  {{ $items := slice }}
+  {{ range .RegularPages }}
+    {{ $title := .Title | default (.File.BaseFileName | humanize) }}
+    {{ $summary := .Params.summary | default (.Summary | plainify | htmlUnescape | truncate 220) }}
+    {{ $items = $items | append (dict "kind" "md" "title" $title "sort" (lower $title) "page" . "summary" $summary "weight" (.Weight | default 1000)) }}
+  {{ end }}
+  {{ range .Resources.Match "*.txt" }}
+    {{ $base := path.Base .Name | replaceRE "\\.txt$" "" }}
+    {{ $title := $base | humanize }}
+    {{ $text := .Content }}
+    {{ $items = $items | append (dict "kind" "txt" "title" $title "sort" (lower $title) "res" . "id" (urlize $title) "text" $text "summary" ($text | truncate 220) "weight" 1000) }}
+  {{ end }}
+
+  {{ if not $items }}
+    <p>No protocols yet.</p>
+  {{ end }}
+
+  {{ range sort (sort $items "sort") "weight" }}
+    <div class="protocol-item">
+      {{ if eq .kind "md" }}
+        {{ $p := .page }}
+        <h3 class="protocol-title">
+          <i class="fas fa-flask mr-2 text-muted" aria-hidden="true"></i><a href="{{ $p.RelPermalink }}">{{ .title }}</a>
+        </h3>
+        <p class="protocol-summary">{{ .summary }}</p>
+        {{ with $p.GitInfo }}<p class="protocol-meta">{{ i18n "last_updated" }} {{ $p.Lastmod.Format site.Params.date_format }}</p>{{ end }}
+      {{ else }}
+        <details class="protocol-txt" id="{{ .id }}">
+          <summary>
+            <h3 class="protocol-title d-inline"><i class="fas fa-file-alt mr-2 text-muted" aria-hidden="true"></i>{{ .title }}</h3>
+            <p class="protocol-summary">{{ .summary }} <em>(click to expand)</em></p>
+          </summary>
+          <p class="protocol-meta mt-2">
+            <a href="{{ .res.RelPermalink }}" target="_blank" rel="noopener"><i class="fas fa-external-link-alt mr-1"></i>Open as plain text</a>
+            &nbsp;·&nbsp;
+            <a href="{{ .res.RelPermalink }}" download><i class="fas fa-download mr-1"></i>Download</a>
+          </p>
+          <pre class="protocol-pre">{{ .text }}</pre>
+        </details>
+      {{ end }}
+    </div>
+  {{ end }}
+</div>
+
+<style>
+  .protocols .protocol-item { padding: 1rem 0; border-bottom: 1px solid rgba(127,127,127,.25); }
+  .protocols .protocol-item:last-child { border-bottom: 0; }
+  .protocols .protocol-title { font-size: 1.25rem; margin: 0 0 .35rem 0; }
+  .protocols .protocol-summary { margin: 0; opacity: .85; }
+  .protocols .protocol-meta { font-size: .85rem; opacity: .7; margin: .25rem 0 0 0; }
+  .protocols details > summary { cursor: pointer; list-style-position: outside; }
+  .protocols details[open] > summary .protocol-summary { display: none; }
+  .protocols .protocol-pre { color: inherit; background: rgba(127,127,127,.08); white-space: pre-wrap; word-wrap: break-word; font-size: .9rem; padding: 1rem; border-radius: 6px; margin-top: .75rem; }
+</style>
+<script>
+  // Open a .txt protocol automatically when linked directly, e.g. /protocols/#phage-fluorescent-labeling
+  (function () {
+    function openHash() {
+      var id = decodeURIComponent(location.hash.slice(1));
+      var el = id && document.getElementById(id);
+      if (el && el.tagName === 'DETAILS') { el.open = true; el.scrollIntoView(); }
+    }
+    window.addEventListener('hashchange', openHash);
+    document.addEventListener('DOMContentLoaded', openHash);
+    openHash();
+  })();
+</script>
+{{- end -}}

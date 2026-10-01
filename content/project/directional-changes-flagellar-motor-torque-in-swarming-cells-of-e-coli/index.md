@@ -9,11 +9,12 @@ links:
     name: Front Microbiol Article
     icon_pack: ai
     icon: doi
-  - url: https://antanij.netlify.app/media/Ford_et_al_2018_swarming.pdf
+  - url: /media/Ford_et_al_2018_swarming.pdf
     name: PDF
     icon_pack: fas
     icon: file-pdf
 image:
+  alt_text: "Illustration for: Directional changes & flagellar motor torque in swarming cells of E. coli"
   filename: featured.jpg
   focal_point: Smart
   preview_only: false

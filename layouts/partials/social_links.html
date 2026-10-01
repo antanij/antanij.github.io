@@ -1,0 +1,30 @@
+{{/* Override of Wowchemy's social_links.html: adds `icon_pack: custom`, which loads
+     an SVG from assets/images/icon-pack/<icon>.svg (used for the Bluesky logo). */}}
+<ul class="network-icon" aria-hidden="true">
+  {{ range .Params.social }}
+    {{ $pack := or .icon_pack "fas" }}
+    {{ $pack_prefix := $pack }}
+    {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+      {{ $pack_prefix = "fa" }}
+    {{ end }}
+    {{ $link := .link }}
+    {{ $scheme := (urls.Parse $link).Scheme }}
+    {{ $target := "" }}
+    {{ if not $scheme }}
+      {{ $link = .link | relLangURL }}
+    {{ else if in (slice "http" "https") $scheme }}
+      {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+    {{ end }}
+    <li>
+      <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
+        {{ if eq $pack "custom" }}
+          {{ with resources.Get (printf "images/icon-pack/%s.svg" .icon) }}
+            <span class="custom-icon" style="display:inline-block;width:1em;height:1em;vertical-align:-0.125em;fill:currentColor;">{{ .Content | safeHTML }}</span>
+          {{ end }}
+        {{ else }}
+          <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }}"></i>
+        {{ end }}
+      </a>
+    </li>
+  {{end}}
+</ul>

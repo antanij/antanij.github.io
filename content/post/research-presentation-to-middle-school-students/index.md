@@ -4,6 +4,7 @@ date: 2022-03-11T21:08:53.266Z
 draft: false
 featured: false
 image:
+  alt_text: "Illustration for: Research Presentation to Middle School Students"
   filename: featured.png
   focal_point: Smart
   preview_only: false

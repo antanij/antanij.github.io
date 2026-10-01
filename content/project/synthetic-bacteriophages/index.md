@@ -9,7 +9,7 @@ links:
     name: PNAS Article
     icon_pack: ai
     icon: doi
-  - url: https://antanij.netlify.app/media/NEB_PNAS_2026.pdf
+  - url: /media/NEB_PNAS_2026.pdf
     name: PDF
     icon_pack: fas
     icon: file-pdf
@@ -18,6 +18,7 @@ links:
     icon_pack: fas
     icon: film
 image:
+  alt_text: "Illustration for: Synthetic bacteriophages"
   filename: featured.png
   focal_point: Smart
   preview_only: false

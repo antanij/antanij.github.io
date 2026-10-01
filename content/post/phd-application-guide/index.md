@@ -5,6 +5,7 @@ summary: "Attn: students considering a PhD application"
 draft: false
 featured: false
 image:
+  alt_text: "Illustration for: PhD Application Guide"
   filename: featured.png
   focal_point: Smart
   preview_only: false

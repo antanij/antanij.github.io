@@ -13,7 +13,7 @@ links:
     name: Nature Communications Article
     icon_pack: ai
     icon: doi
-  - url: https://antanij.netlify.app/media/Antani_et_al_2021_mechanosensing_Ecoli.pdf
+  - url: /media/Antani_et_al_2021_mechanosensing_Ecoli.pdf
     name: PDF
     icon_pack: fas
     icon: file-pdf
@@ -22,6 +22,7 @@ links:
     icon_pack: fas
     icon: film
 image:
+  alt_text: "Illustration for: Molecular Mechanisms of Mechanical Force Sensing by Bacterial Flagellar Motors"
   filename: featured.png
   focal_point: Smart
   preview_only: false

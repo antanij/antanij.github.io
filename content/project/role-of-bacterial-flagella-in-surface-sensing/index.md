@@ -9,11 +9,12 @@ links:
     name: Topical Review Article
     icon_pack: ai
     icon: doi
-  - url: https://antanij.netlify.app//media/Wong_Antani_et_al_Phys_Biol_2021.pdf
+  - url: /media/Wong_Antani_et_al_Phys_Biol_2021.pdf
     name: PDF
     icon_pack: fas
     icon: file-pdf
 image:
+  alt_text: "Illustration for: Role of Bacterial Flagella in Surface Sensing"
   filename: featured.png
   focal_point: Smart
   preview_only: false

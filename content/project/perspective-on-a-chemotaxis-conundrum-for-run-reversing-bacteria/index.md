@@ -9,11 +9,12 @@ links:
     name: Annu Rev Chem Biomol Article
     icon_pack: ai
     icon: doi
-  - url: https://antanij.netlify.app/media/Antani_et_al_Annu_Rev_Chem_Biomol_2024.pdf
+  - url: /media/Antani_et_al_Annu_Rev_Chem_Biomol_2024.pdf
     name: PDF
     icon_pack: fas
     icon: file-pdf
 image:
+  alt_text: "Illustration for: Perspective on a chemotaxis conundrum for run-reversing bacteria"
   filename: featured.png
   focal_point: Smart
   preview_only: false

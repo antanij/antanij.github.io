@@ -1,0 +1,12 @@
+Pass filtered phage lysate (phages removed from bacteria ater growth) once through 100 kDa amicon filter (in a benchtop centrifuge, not ultracentrifuge) to exchange media to PBS (pH 7.4). This helps get rid of molecules in the lysate that the dye might bind to. See below my protocol: 
+
+Dye prep (only done when receiving new dye, not each time labeling occurs):
+- Fresh 1 mg AZdye TFP ester 488 (or 568 or ... you can choose your own based on your filter set) is dissolved into 200 uL water.
+- 10 uL aliquots are made into centrifuge tubes.
+- dye is desiccated by running these samples through a speedvac, and the tubes are stored at -20 C in airtight container with desiccant until further use.
+
+Labeling:
+- a dye aliquot is taken out of the freezer and incubated at room temperature in airtight container (e.g., a 50 mL centrifuge tube) with desiccant.
+- phage lysate (100-500 uL) is dissolved in PBS to a final volume of 4 mL filtered using 100 kDa Amicon filters and resuspended in 100 uL PBS.
+- 100 uL of the phage lysate is transferred to the tube with dye aliquot and pipette-mixed.
+- the tube is incubated with gentle shaking at room temperature for 2-3 hours. optional: overnight incubation at 4 C. Excess dye is washed (through amicon filters) 4X with PBS.

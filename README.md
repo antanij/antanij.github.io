@@ -1,32 +1,73 @@
-<p align="center"><a href="https://wowchemy.com" target="_blank" rel="noopener"><img src="https://wowchemy.com/img/logo_200px.png" alt="Wowchemy Website Builder"></a></p>
+# Jyot Antani: personal website
 
-# Academic Template for [Hugo](https://github.com/gohugoio/hugo)
+Source code for my academic website, live at **https://antanij.netlify.app**.
+Built with [Hugo](https://gohugo.io) and the [Wowchemy](https://wowchemy.com) Academic theme; deployed automatically by Netlify whenever I push to `master`.
 
-The Hugo **Academic Resumé Template** empowers you to create your job-winning online resumé and showcase your academic publications.
+---
 
-[Check out the latest demo](https://academic-demo.netlify.app) of what you'll get in less than 10 minutes, or [view the showcase](https://wowchemy.com/user-stories/).
+## Preview the site on my computer (before committing)
 
-[**Wowchemy**](https://wowchemy.com) makes it easy to create a beautiful website for free. Edit your site in Markdown, Jupyter, or RStudio (via Blogdown), generate it with Hugo, and deploy with GitHub or Netlify. Customize anything on your site with widgets, themes, and language packs.
+One-time setup (already done on my laptop): Go installed (`winget install GoLang.Go`) and
+Hugo **0.79.1 extended** unzipped to `C:\Users\jyota\Hugo\hugo.exe`
+([download](https://github.com/gohugoio/hugo/releases/download/v0.79.1/hugo_extended_0.79.1_Windows-64bit.zip)).
+This exact old Hugo version is required by the theme.
 
-- 👉 [**Get Started**](https://wowchemy.com/docs/install/)
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/update/) and [Release Notes](https://wowchemy.com/updates/)
+Each time:
 
-## Crowd-funded open-source software
+1. In GitHub Desktop: **Repository → Open in Command Prompt**.
+2. Run:
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+   ```
+   C:\Users\jyota\Hugo\hugo.exe server
+   ```
 
-### [❤️ Click here to unlock rewards with sponsorship](https://wowchemy.com/plans/)
+3. Open **http://localhost:1313** in the browser. The page refreshes on every file save.
+4. Press **Ctrl+C** in the Command Prompt to stop.
 
-## Ecosystem
+If it complains that `go` is not found: fully quit GitHub Desktop (File → Exit) and reopen it.
 
-* **[Wowchemy Admin](https://github.com/wowchemy/wowchemy-admin/):** An admin tool to import publications from BibTeX
+---
 
-[![Screenshot](https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png)](https://wowchemy.com)
+## Where things live
 
-<!--
-[![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/academic-kickstart/readme?pixel)](https://github.com/igrigorik/ga-beacon)
--->
+| What | File / folder |
+|---|---|
+| Bio, education, social icons | `content/authors/admin/_index.md` (photo: `avatar.jpg` in same folder) |
+| Key Publications (one folder per paper, with `featured.png`) | `content/project/<paper>/index.md` |
+| Science Outreach posts | `content/post/<post>/index.md` |
+| Experimental Protocols | `content/protocols/` (see below) |
+| PDFs (CV, papers) | `static/media/` → served at `/media/<FileName>.pdf` |
+| Top menu | `config/_default/menus.toml` |
+| Site title, copyright, base URL | `config/_default/config.toml` |
+| Theme, colours, contact info, sharing image | `config/_default/params.toml` |
+| Homepage sections (turn on/off with `active:`) | `content/home/*.md` |
+
+## Experimental Protocols
+
+Drop a `.md` or `.txt` file into `content/protocols/` and commit. That's it.
+
+- **`.md` files** get their own page (`/protocols/<file-name>/`). An optional header sets the title;
+  without it the title is made from the file name (`phage_growth.md` → "Phage growth"):
+
+  ```
+  ---
+  title: Phage growth (for beginners)
+  ---
+  ```
+
+- **`.txt` files** appear on the protocols page as expandable sections, plus a raw-file link at
+  `/protocols/<file-name>.txt`. A direct link that opens one: `/protocols/#<title-with-dashes>`,
+  e.g. `/protocols/#phage-fluorescent-labeling`.
+- The intro text at the top of the page is in `content/protocols/_index.md`.
+- The page templates are in `layouts/protocols/` (no need to touch them).
+
+## Adding a PDF and linking it
+
+1. Put the file in `static/media/` (keep the exact capitalisation you'll use in the link).
+2. Link it with a path that starts with a slash, e.g. `/media/CV_JAntani.pdf`.
+
+## Other customisations
+
+- `layouts/partials/social_links.html` adds support for custom SVG icons (`icon_pack: custom`);
+  the Bluesky logo is `assets/images/icon-pack/bluesky.svg`.
+- `netlify.toml` holds the build settings and redirects (e.g. the old protocol link).

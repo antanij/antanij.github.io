@@ -9,15 +9,16 @@ links:
     name: npj Viruses Article
     icon_pack: ai
     icon: doi
-  - url: https://antanij.netlify.app/media/Antani_Rage_Against_the_Mean_2026.pdf
+  - url: /media/Antani_Rage_Against_the_Mean_2026.pdf
     name: PDF
     icon_pack: fas
     icon: file-pdf
   - url: https://bsky.app/profile/antanij.bsky.social/post/3mipbaa6qgc2m
-    icon_pack: fab
-    icon: twitter
+    icon_pack: custom
+    icon: bluesky
     name: BlueSky Post
 image:
+  alt_text: "Illustration for: Rage Against the Mean: Perspective on measuring single-virus traits"
   filename: featured.png
   focal_point: Smart
   preview_only: false

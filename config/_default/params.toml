@@ -48,7 +48,7 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "Jyot Antani, PhD: biophysicist at Yale building microscopy tools to measure how bacteriophages interact with bacteria, toward phage therapy against antimicrobial resistance."
 
 ############################
 ## Site Features
@@ -124,7 +124,7 @@ contact_links = [
 ############################
 
 # Default image for social sharing and search engines. Place image in `static/media/` folder and specify image name here.
-sharing_image = "profile pic SD beach.jpg"
+sharing_image = "sharing.jpg"
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
 twitter = "AntaniJo"

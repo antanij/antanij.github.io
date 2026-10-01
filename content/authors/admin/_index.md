@@ -15,8 +15,8 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:jyot.antani@yale.edu
-  - icon: twitter
-    icon_pack: fab
+  - icon: bluesky
+    icon_pack: custom
     link: https://bsky.app/profile/antanij.bsky.social
   - icon: google-scholar
     icon_pack: ai
@@ -24,6 +24,9 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/jyotantani
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/antanij/
   - display:
       header: false
     icon_pack: ai

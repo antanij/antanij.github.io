@@ -18,7 +18,7 @@ links:
     name: eLife Article
     icon_pack: ai
     icon: doi
-  - url: https://antanij.netlify.app/media/Antani_et_al_eLife_2021.pdf
+  - url: /media/Antani_et_al_eLife_2021.pdf
     name: PDF
     icon_pack: fas
     icon: file-pdf
@@ -31,6 +31,7 @@ links:
     icon_pack: fas
     icon: film
 image:
+  alt_text: "Illustration for: Single-cell Motility and Chemotaxis of Helicobacter pylori"
   caption: ""
   focal_point: Smart
   filename: featured.png

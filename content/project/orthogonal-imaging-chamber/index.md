@@ -9,11 +9,12 @@ links:
     name: J Microsc Manuscript
     icon_pack: ai
     icon: doi
-  - url: https://antanij.netlify.app//media/Katiyar_Antani_orthogonal_imaging_chamber.pdf
+  - url: /media/Katiyar_Antani_orthogonal_imaging_chamber.pdf
     name: PDF
     icon_pack: fas
     icon: file-pdf
 image:
+  alt_text: "Illustration for: Orthogonal Imaging Chamber"
   filename: featured.png
   focal_point: Smart
   preview_only: false
