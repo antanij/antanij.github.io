@@ -5,3 +5,9 @@
 /resources/
 public/
 jsconfig.json
+
+# Files created when previewing the hugo-blox branch
+.hugo_build.lock
+hugo_stats.json
+node_modules/
+package-lock.json

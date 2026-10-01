@@ -1,0 +1,3 @@
+# Keep third-party icon files byte-for-byte identical (their integrity hashes in
+# data/assets.toml break if Git converts line endings on Windows).
+static/vendor/** -text
