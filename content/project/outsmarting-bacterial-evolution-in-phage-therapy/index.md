@@ -3,20 +3,16 @@ title: Outsmarting Bacterial Evolution in Phage Therapy
 date: 2023-06-06T12:48:01.254Z
 draft: false
 featured: false
-external_link: https://doi.org/10.1146/annurev-virology-012423-110530
 links:
   - url: https://doi.org/10.1146/annurev-virology-012423-110530
-    name: Annu Rev Virology Article
-    icon_pack: ai
-    icon: doi
+    label: Annu Rev Virology Article
+    icon: academicons/doi
   - url: /media/Oromí-Bosch_Antani_Turner_2023_BacterialResistance_PhageTherapy.pdf
-    name: PDF
-    icon_pack: fas
-    icon: file-pdf
+    label: PDF
+    icon: hero/document-text
   - url: https://twitter.com/AntaniJo/status/1666091027860684800
-    name: Twitter Summary
-    icon_pack: fab
-    icon: twitter
+    label: Twitter Summary
+    icon: brands/x
 image:
   alt_text: "Illustration for: Outsmarting Bacterial Evolution in Phage Therapy"
   filename: featured.png

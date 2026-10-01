@@ -1,0 +1,15 @@
+/* Site-specific style tweaks (loaded after the theme's CSS). */
+
+/* Less empty space above and below the bio at the top of the homepage. */
+.resume-biography {
+  padding-top: 2rem !important;
+  padding-bottom: 1.5rem !important;
+}
+
+/* Tighter gaps between top-menu items so the menu fits on one line. */
+@media (min-width: 1024px) {
+  .navbar .navbar-nav > li {
+    margin-inline-start: 0 !important;
+    margin-inline-end: 0.75rem !important;
+  }
+}

@@ -3,24 +3,19 @@ title: Molecular Mechanisms of Mechanical Force Sensing by Bacterial Flagellar M
 date: 2021-09-15T20:32:16.888Z
 draft: false
 featured: false
-external_link: https://www.nature.com/articles/s41467-021-25774-2
 links:
   - url: https://twitter.com/AntaniJo/status/1422338249025105922
-    name: Tweetorial
-    icon_pack: fab
-    icon: twitter
+    label: Tweetorial
+    icon: brands/x
   - url: https://www.nature.com/articles/s41467-021-25774-2
-    name: Nature Communications Article
-    icon_pack: ai
-    icon: doi
+    label: Nature Communications Article
+    icon: academicons/doi
   - url: /media/Antani_et_al_2021_mechanosensing_Ecoli.pdf
-    name: PDF
-    icon_pack: fas
-    icon: file-pdf
+    label: PDF
+    icon: hero/document-text
   - url: https://stories.tamu.edu/news/2021/09/15/to-colonize-different-environments-bacteria-precisely-tune-their-nanomotors/
-    name: Texas A&M Stories
-    icon_pack: fas
-    icon: film
+    label: Texas A&M Stories
+    icon: hero/newspaper
 image:
   alt_text: "Illustration for: Molecular Mechanisms of Mechanical Force Sensing by Bacterial Flagellar Motors"
   filename: featured.png

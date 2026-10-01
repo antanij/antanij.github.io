@@ -3,16 +3,13 @@ title: Directional changes & flagellar motor torque in swarming cells of E. coli
 date: 2018-11-15T15:15:00.000Z
 draft: true
 featured: false
-external_link: https://doi.org/10.3389/fmicb.2018.02197
 links:
   - url: https://doi.org/10.3389/fmicb.2018.02197
-    name: Front Microbiol Article
-    icon_pack: ai
-    icon: doi
+    label: Front Microbiol Article
+    icon: academicons/doi
   - url: /media/Ford_et_al_2018_swarming.pdf
-    name: PDF
-    icon_pack: fas
-    icon: file-pdf
+    label: PDF
+    icon: hero/document-text
 image:
   alt_text: "Illustration for: Directional changes & flagellar motor torque in swarming cells of E. coli"
   filename: featured.jpg

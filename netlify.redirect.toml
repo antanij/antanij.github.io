@@ -1,0 +1,115 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# FORWARD THE OLD NETLIFY ADDRESS TO GITHUB PAGES
+#
+# Use this ONLY after https://antanij.github.io is live and looks right.
+# Then: delete netlify.toml, rename this file to netlify.toml, commit and push.
+# From then on, every https://antanij.netlify.app/<anything> link permanently
+# redirects to https://antanij.github.io/<same path>.
+# Keep the Netlify site itself (don't delete it), or the old links stop working.
+# ─────────────────────────────────────────────────────────────────────────────
+
+[build]
+  # Nothing to build: Netlify only serves the redirects below.
+  command = "mkdir -p public && echo 'Moved to https://antanij.github.io' > public/index.html"
+  publish = "public"
+
+# Old protocol file location
+[[redirects]]
+  from = "/media/antani_phage_labeling_protocol.txt"
+  to = "https://antanij.github.io/protocols/#phage-fluorescent-labeling"
+  status = 301
+  force = true
+
+# PDFs: Netlify matches these case-insensitively, so old links like
+# /media/cv_jantani.pdf still reach the correctly capitalised file on GitHub Pages
+# (GitHub Pages itself is case-sensitive).
+[[redirects]]
+  from = "/media/Antani_Rage_Against_the_Mean_2026.pdf"
+  to = "https://antanij.github.io/media/Antani_Rage_Against_the_Mean_2026.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/media/Antani_chiphage_bioRxiv.pdf"
+  to = "https://antanij.github.io/media/Antani_chiphage_bioRxiv.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/media/Antani_et_al_2021_mechanosensing_Ecoli.pdf"
+  to = "https://antanij.github.io/media/Antani_et_al_2021_mechanosensing_Ecoli.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/media/Antani_et_al_Annu_Rev_Chem_Biomol_2024.pdf"
+  to = "https://antanij.github.io/media/Antani_et_al_Annu_Rev_Chem_Biomol_2024.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/media/Antani_et_al_Microscopic_Phage_Adsorption_Assay_2024.pdf"
+  to = "https://antanij.github.io/media/Antani_et_al_Microscopic_Phage_Adsorption_Assay_2024.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/media/Antani_et_al_eLife_2021.pdf"
+  to = "https://antanij.github.io/media/Antani_et_al_eLife_2021.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/media/CV_JAntani.pdf"
+  to = "https://antanij.github.io/media/CV_JAntani.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/media/DivyaBhaskar_Antani_2025.pdf"
+  to = "https://antanij.github.io/media/DivyaBhaskar_Antani_2025.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/media/Ford_et_al_2018_swarming.pdf"
+  to = "https://antanij.github.io/media/Ford_et_al_2018_swarming.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/media/Katiyar_Antani_orthogonal_imaging_chamber.pdf"
+  to = "https://antanij.github.io/media/Katiyar_Antani_orthogonal_imaging_chamber.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/media/Katiyar_et_al_2022_Drop-like_Nucleus.pdf"
+  to = "https://antanij.github.io/media/Katiyar_et_al_2022_Drop-like_Nucleus.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/media/NEB_PNAS_2026.pdf"
+  to = "https://antanij.github.io/media/NEB_PNAS_2026.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/media/Oromí-Bosch_Antani_Turner_2023_BacterialResistance_PhageTherapy.pdf"
+  to = "https://antanij.github.io/media/Oromí-Bosch_Antani_Turner_2023_BacterialResistance_PhageTherapy.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/media/Wong_Antani_et_al_Phys_Biol_2021.pdf"
+  to = "https://antanij.github.io/media/Wong_Antani_et_al_Phys_Biol_2021.pdf"
+  status = 301
+  force = true
+
+# Everything else: same path on the new address
+[[redirects]]
+  from = "/*"
+  to = "https://antanij.github.io/:splat"
+  status = 301
+  force = true

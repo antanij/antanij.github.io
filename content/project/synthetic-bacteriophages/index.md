@@ -3,20 +3,16 @@ title: Synthetic bacteriophages
 date: 2026-01-24T17:56:44.782Z
 draft: false
 featured: false
-external_link: http://dx.doi.org/10.1073/pnas.2525963123
 links:
   - url: http://dx.doi.org/10.1073/pnas.2525963123
-    name: PNAS Article
-    icon_pack: ai
-    icon: doi
+    label: PNAS Article
+    icon: academicons/doi
   - url: /media/NEB_PNAS_2026.pdf
-    name: PDF
-    icon_pack: fas
-    icon: file-pdf
+    label: PDF
+    icon: hero/document-text
   - url: https://phys.org/news/2026-01-golden-gate-method-enables-fully.html
-    name: Phys.org
-    icon_pack: fas
-    icon: film
+    label: Phys.org
+    icon: hero/newspaper
 image:
   alt_text: "Illustration for: Synthetic bacteriophages"
   filename: featured.png

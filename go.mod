@@ -1,8 +1,9 @@
-module github.com/wowchemy/starter-academic
+module github.com/HugoBlox/kit/templates/academic-cv
 
-go 1.15
+go 1.19
 
 require (
-	github.com/wowchemy/wowchemy-hugo-modules/netlify-cms-academic v0.0.0-20201230224646-25e0b0627f09 // indirect
-	github.com/wowchemy/wowchemy-hugo-modules/wowchemy v0.0.0-20201230224646-25e0b0627f09
+	github.com/HugoBlox/kit/modules/blox v0.0.0-20260527025321-61f41d3667f1
+	github.com/HugoBlox/kit/modules/integrations/netlify v1.3.0
+	github.com/HugoBlox/kit/modules/slides v1.3.0
 )

@@ -3,44 +3,34 @@ title: A microscopic way to measure virus attachment
 date: 2026-02-22T14:32:41.564Z
 draft: false
 featured: false
-external_link: https://www.pnas.org/doi/10.1073/pnas.2410905121
 links:
-  - name: PNAS Article
+  - label: PNAS Article
     url: https://www.pnas.org/doi/10.1073/pnas.2410905121
-    icon_pack: ai
-    icon: doi
+    icon: academicons/doi
   - url: /media/Antani_et_al_Microscopic_Phage_Adsorption_Assay_2024.pdf
-    name: PDF
-    icon_pack: fas
-    icon: file-pdf
+    label: PDF
+    icon: hero/document-text
   - url: /protocols/#phage-fluorescent-labeling
-    name: Phage labeling protocol
-    icon_pack: fas
-    icon: flask
+    label: Phage labeling protocol
+    icon: hero/beaker
   - url: https://bsky.app/profile/antanij.bsky.social/post/3ldov7fbmek24
-    name: BlueSky Thread
-    icon_pack: fab
-    icon: bluesky
+    label: BlueSky Thread
+    icon: brands/bluesky
   - url: https://news.yale.edu/2025/04/15/new-tool-offers-insights-virus-cell-interactions
-    name: YaleNews
-    icon_pack: fas
-    icon: film
+    label: YaleNews
+    icon: hero/newspaper
   - url: https://www.youtube.com/watch?v=yEmuUIG9FzE
-    name: YouTube (Yale Scientific Magazine)
-    icon_pack: fab
-    icon: youtube
-  - icon_pack: fas
-    icon: film
-    name: Local News (Gujarati)
+    label: YouTube (Yale Scientific Magazine)
+    icon: brands/youtube
+  - icon: hero/newspaper
+    label: Local News (Gujarati)
     url: /media/DivyaBhaskar_Antani_2025.pdf
-  - icon_pack: fas
-    icon: film
-    name: Times of India
+  - icon: hero/newspaper
+    label: Times of India
     url: https://timesofindia.indiatimes.com/city/ahmedabad/amdavadi-scientist-at-yale-aims-to-combat-amr-bacteria-using-viruses/articleshow/121554936.cms
-  - name: Layperson summary
+  - label: Layperson summary
     url: https://www.journaloflifesciences.org/archives/1561/glowing-viruses-how-strong-is-their-grip.htm
-    icon_pack: fas
-    icon: user
+    icon: hero/user
 image:
   alt_text: "Illustration for: A microscopic way to measure virus attachment"
   filename: featured.png
