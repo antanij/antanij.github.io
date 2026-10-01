@@ -16,7 +16,7 @@ social:
     icon_pack: fas
     link: mailto:jyot.antani@yale.edu
   - icon: bluesky
-    icon_pack: custom
+    icon_pack: fab
     link: https://bsky.app/profile/antanij.bsky.social
   - icon: google-scholar
     icon_pack: ai
@@ -36,7 +36,7 @@ social:
       header: false
     link: http://www.webofscience.com/wos/author/record/ABD-2323-2021
     icon_pack: ai
-    icon: publons
+    icon: clarivate
   - display:
       header: false
     link: https://www.scopus.com/authid/detail.uri?authorId=57204284025#

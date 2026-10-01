@@ -19,7 +19,7 @@ links:
     icon: flask
   - url: https://bsky.app/profile/antanij.bsky.social/post/3ldov7fbmek24
     name: BlueSky Thread
-    icon_pack: custom
+    icon_pack: fab
     icon: bluesky
   - url: https://news.yale.edu/2025/04/15/new-tool-offers-insights-virus-cell-interactions
     name: YaleNews

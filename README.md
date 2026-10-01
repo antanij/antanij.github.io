@@ -68,6 +68,8 @@ Drop a `.md` or `.txt` file into `content/protocols/` and commit. That's it.
 
 ## Other customisations
 
-- `layouts/partials/social_links.html` adds support for custom SVG icons (`icon_pack: custom`);
-  the Bluesky logo is `assets/images/icon-pack/bluesky.svg`.
+- Font Awesome 6.7.2 and Academicons 1.9.5 are self-hosted in `static/vendor/` (newer than the
+  theme's defaults, for the Bluesky and Clarivate icons); `data/assets.toml` points the theme at them.
+- `layouts/partials/site_footer.html` shortens the footer; the credit line is `copyright` in
+  `config/_default/config.toml`.
 - `netlify.toml` holds the build settings and redirects (e.g. the old protocol link).

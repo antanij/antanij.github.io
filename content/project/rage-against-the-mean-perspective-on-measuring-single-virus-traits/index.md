@@ -14,7 +14,7 @@ links:
     icon_pack: fas
     icon: file-pdf
   - url: https://bsky.app/profile/antanij.bsky.social/post/3mipbaa6qgc2m
-    icon_pack: custom
+    icon_pack: fab
     icon: bluesky
     name: BlueSky Post
 image:
