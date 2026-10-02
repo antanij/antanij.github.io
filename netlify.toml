@@ -1,77 +1,121 @@
-# Netlify build settings (used until the site moves to GitHub Pages).
-# After https://antanij.github.io is live, replace this file with the contents of
-# netlify.redirect.toml so every old antanij.netlify.app link forwards to GitHub Pages.
+# ─────────────────────────────────────────────────────────────────────────────
+# FORWARD THE OLD NETLIFY ADDRESS TO GITHUB PAGES
+#
+# Use this ONLY after https://antanij.github.io is live and looks right.
+# Then: delete netlify.toml, rename this file to netlify.toml, commit and push.
+# From then on, every https://antanij.netlify.app/<anything> link permanently
+# redirects to https://antanij.github.io/<same path>.
+# Keep the Netlify site itself (don't delete it), or the old links stop working.
+# ─────────────────────────────────────────────────────────────────────────────
 
 [build]
-  command = """
-    set -e
-    echo "=== Starting Blog build process ==="
-    echo "Node version: $(node --version)"
-    echo "pnpm version: $(pnpm --version)"
-    echo "Hugo version: $(hugo version)"
-    echo "Go version: $(go version || echo 'Go not available')"
-    
-    echo "=== Installing dependencies ==="
-    pnpm install --verbose --no-frozen-lockfile
-    
-    echo "=== Running Hugo build ==="
-    hugo --gc --minify -b $URL --logLevel debug --printI18nWarnings --printPathWarnings
-    
-    echo "=== Running Pagefind indexing ==="
-    pnpm run pagefind
-    
-    echo "=== Build completed successfully ==="
-  """
+  # Nothing to build: Netlify only serves the redirects below.
+  command = "mkdir -p public && echo 'Moved to https://antanij.github.io' > public/index.html"
   publish = "public"
 
-[build.environment]
-  HUGO_VERSION = "0.161.1"
-  GO_VERSION = "1.21.5"
-  NODE_VERSION = "22"
-  # Netlify runs an implicit install step; ensure it never enforces frozen lockfiles
-  PNPM_FLAGS = "--no-frozen-lockfile"
-  HUGO_ENABLEGITINFO = "true"
-  HUGO_LOG_I18N_WARNINGS = "true"
-  HUGO_LOG_WARNINGS = "true"
-  FORCE_COLOR = "1"
-  PNPM_LOG_LEVEL = "debug"
-
-[context.production.environment]
-  HUGO_ENV = "production"
-
-[context.deploy-preview]
-  command = """
-    set -e
-    echo "=== Deploy Preview Build ==="
-    echo "Deploy URL: $DEPLOY_PRIME_URL"
-    pnpm install --verbose --no-frozen-lockfile
-    hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL --logLevel debug --printI18nWarnings --printPathWarnings
-    pnpm run pagefind
-  """
-
-[context.branch-deploy]
-  command = """
-    set -e
-    echo "=== Branch Deploy Build ==="
-    echo "Deploy URL: $DEPLOY_PRIME_URL"
-    pnpm install --verbose --no-frozen-lockfile
-    hugo --gc --minify -b $DEPLOY_PRIME_URL --logLevel debug --printI18nWarnings --printPathWarnings
-    pnpm run pagefind
-  """
-
-[[plugins]]
-  package = "netlify-plugin-hugo-cache-resources"
-  [plugins.inputs]
-    debug = true
-
-# Old protocol links -> the protocol page
+# Old protocol file locations
 [[redirects]]
   from = "/protocols/phage_fluorescent_labeling.txt"
-  to = "/protocols/phage_fluorescent_labeling/"
+  to = "https://antanij.github.io/protocols/phage_fluorescent_labeling/"
   status = 301
+  force = true
 
-# Old location of the phage labeling protocol -> Experimental Protocols page
 [[redirects]]
   from = "/media/antani_phage_labeling_protocol.txt"
-  to = "/protocols/phage_fluorescent_labeling/"
+  to = "https://antanij.github.io/protocols/phage_fluorescent_labeling/"
   status = 301
+  force = true
+
+# PDFs: Netlify matches these case-insensitively, so old links like
+# /media/cv_jantani.pdf still reach the correctly capitalised file on GitHub Pages
+# (GitHub Pages itself is case-sensitive).
+[[redirects]]
+  from = "/media/Antani_Rage_Against_the_Mean_2026.pdf"
+  to = "https://antanij.github.io/media/Antani_Rage_Against_the_Mean_2026.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/media/Antani_chiphage_bioRxiv.pdf"
+  to = "https://antanij.github.io/media/Antani_chiphage_bioRxiv.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/media/Antani_et_al_2021_mechanosensing_Ecoli.pdf"
+  to = "https://antanij.github.io/media/Antani_et_al_2021_mechanosensing_Ecoli.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/media/Antani_et_al_Annu_Rev_Chem_Biomol_2024.pdf"
+  to = "https://antanij.github.io/media/Antani_et_al_Annu_Rev_Chem_Biomol_2024.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/media/Antani_et_al_Microscopic_Phage_Adsorption_Assay_2024.pdf"
+  to = "https://antanij.github.io/media/Antani_et_al_Microscopic_Phage_Adsorption_Assay_2024.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/media/Antani_et_al_eLife_2021.pdf"
+  to = "https://antanij.github.io/media/Antani_et_al_eLife_2021.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/media/CV_JAntani.pdf"
+  to = "https://antanij.github.io/media/CV_JAntani.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/media/DivyaBhaskar_Antani_2025.pdf"
+  to = "https://antanij.github.io/media/DivyaBhaskar_Antani_2025.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/media/Ford_et_al_2018_swarming.pdf"
+  to = "https://antanij.github.io/media/Ford_et_al_2018_swarming.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/media/Katiyar_Antani_orthogonal_imaging_chamber.pdf"
+  to = "https://antanij.github.io/media/Katiyar_Antani_orthogonal_imaging_chamber.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/media/Katiyar_et_al_2022_Drop-like_Nucleus.pdf"
+  to = "https://antanij.github.io/media/Katiyar_et_al_2022_Drop-like_Nucleus.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/media/NEB_PNAS_2026.pdf"
+  to = "https://antanij.github.io/media/NEB_PNAS_2026.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/media/Oromí-Bosch_Antani_Turner_2023_BacterialResistance_PhageTherapy.pdf"
+  to = "https://antanij.github.io/media/Oromí-Bosch_Antani_Turner_2023_BacterialResistance_PhageTherapy.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/media/Wong_Antani_et_al_Phys_Biol_2021.pdf"
+  to = "https://antanij.github.io/media/Wong_Antani_et_al_Phys_Biol_2021.pdf"
+  status = 301
+  force = true
+
+# Everything else: same path on the new address
+[[redirects]]
+  from = "/*"
+  to = "https://antanij.github.io/:splat"
+  status = 301
+  force = true
