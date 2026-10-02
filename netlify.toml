@@ -64,8 +64,14 @@
   [plugins.inputs]
     debug = true
 
+# Old protocol links -> the protocol page
+[[redirects]]
+  from = "/protocols/phage_fluorescent_labeling.txt"
+  to = "/protocols/phage_fluorescent_labeling/"
+  status = 301
+
 # Old location of the phage labeling protocol -> Experimental Protocols page
 [[redirects]]
   from = "/media/antani_phage_labeling_protocol.txt"
-  to = "/protocols/#phage-fluorescent-labeling"
+  to = "/protocols/phage_fluorescent_labeling/"
   status = 301

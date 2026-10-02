@@ -13,3 +13,21 @@
     margin-inline-end: 0.75rem !important;
   }
 }
+
+/* Make links in section intro text (e.g. "Google Scholar profile") look like links. */
+.prose a, section p a {
+  color: var(--color-primary-600, #4f46e5);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.dark .prose a, .dark section p a { color: var(--color-primary-400, #818cf8); }
+
+/* Homepage animated figure: always fits the screen width (phones included). */
+.feature-video, .feature-video img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+  border-radius: 0.5rem;
+}

@@ -1,0 +1,25 @@
+{{- define "main" -}}
+{{/* Gallery grid (content/gallery/). Each .md file there is one image or movie with its own page. */}}
+<div class="mx-auto max-w-6xl px-6 pt-4 md:px-12">
+  <h1 class="mt-2 text-4xl font-bold tracking-tight text-gray-900 dark:text-white">{{ .Title }}</h1>
+  {{ with .Content }}<div class="prose prose-lg dark:prose-invert mt-4 max-w-none">{{ . }}</div>{{ end }}
+  <div class="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    {{ range .RegularPages.ByWeight }}
+      {{ $is_video := in (slice ".mp4" ".webm" ".mov") (path.Ext .Params.media | lower) }}
+      <a href="{{ .RelPermalink }}" class="group block overflow-hidden rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 shadow-sm hover:shadow-md transition-shadow">
+        <div class="relative aspect-square overflow-hidden bg-black">
+          {{ if $is_video }}
+            <video class="h-full w-full object-cover" {{ with .Params.poster }}poster="{{ . | relURL }}"{{ end }} autoplay loop muted playsinline preload="metadata" aria-label="{{ .Params.alt | default .Title }}">{{ $webm := replaceRE `\.[^.]+$` ".webm" .Params.media }}{{ if and (ne $webm .Params.media) (fileExists (printf "static%s" $webm)) }}<source src="{{ $webm | relURL }}" type="video/webm">{{ end }}<source src="{{ .Params.media | relURL }}" type="video/mp4"></video>
+            <span class="absolute bottom-2 right-2 rounded bg-black/60 px-2 py-0.5 text-xs text-white">▶ movie</span>
+          {{ else }}
+            <img class="h-full w-full object-cover group-hover:scale-105 transition-transform" src="{{ .Params.media | relURL }}" alt="{{ .Params.alt | default .Title }}" loading="lazy">
+          {{ end }}
+        </div>
+        <div class="p-4">
+          <h2 class="text-lg font-semibold text-gray-900 dark:text-white group-hover:underline">{{ .Title }}</h2>
+        </div>
+      </a>
+    {{ end }}
+  </div>
+</div>
+{{- end -}}

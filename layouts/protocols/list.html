@@ -11,13 +11,13 @@
 {{ range .RegularPages }}
   {{ $title := .Title | default (.File.BaseFileName | humanize) }}
   {{ $summary := .Params.summary | default (.Summary | plainify | htmlUnescape | truncate 220) }}
-  {{ $items = $items | append (dict "kind" "md" "title" $title "sort" (lower $title) "page" . "summary" $summary) }}
+  {{ $items = $items | append (dict "kind" "md" "title" $title "sort" (lower $title) "page" . "summary" $summary "id" (urlize (lower $title))) }}
 {{ end }}
 {{ range .Resources.Match "*.txt" }}
   {{ $base := path.Base .Name | replaceRE "\\.txt$" "" }}
   {{ $title := $base | humanize }}
   {{ $text := .Content }}
-  {{ $items = $items | append (dict "kind" "txt" "title" $title "sort" (lower $title) "res" . "id" (urlize $title) "text" $text "summary" ($text | truncate 220)) }}
+  {{ $items = $items | append (dict "kind" "txt" "title" $title "sort" (lower $title) "res" . "id" (urlize (lower $title)) "text" $text "summary" ($text | truncate 220)) }}
 {{ end }}
 
 <div class="mx-auto max-w-4xl px-6 pt-4 md:px-12">
@@ -29,6 +29,7 @@
     <div class="py-6">
       {{ if eq .kind "md" }}
         {{ $p := .page }}
+        <span id="{{ .id }}" data-page="{{ $p.RelPermalink }}" class="block scroll-mt-24"></span>
         <h2 class="text-2xl font-semibold">
           <a class="text-primary-700 dark:text-primary-300 hover:underline" href="{{ $p.RelPermalink }}">{{ .title }}</a>
         </h2>
@@ -57,12 +58,15 @@
   </div>
 </div>
 <script>
-  // Open a .txt protocol automatically when linked directly, e.g. /protocols/#phage-fluorescent-labeling
+  // Links like /protocols/#<protocol-title> open that protocol.
   (function () {
     function openHash() {
       var id = decodeURIComponent(location.hash.slice(1));
       var el = id && document.getElementById(id);
-      if (el && el.tagName === 'DETAILS') { el.open = true; el.scrollIntoView(); }
+      if (!el) return;
+      // An old link like /protocols/#phage-fluorescent-labeling: go to that protocol's own page.
+      if (el.dataset.page) { location.replace(el.dataset.page); return; }
+      if (el.tagName === 'DETAILS') { el.open = true; el.scrollIntoView(); }
     }
     window.addEventListener('hashchange', openHash);
     document.addEventListener('DOMContentLoaded', openHash);

@@ -12,8 +12,8 @@ main:
   - name: Experimental Protocols
     url: /protocols/
     weight: 40
-  - name: Google Scholar
-    url: https://scholar.google.com/citations?user=3S_V-uoAAAAJ
+  - name: Gallery
+    url: /gallery/
     weight: 50
   - name: CV
     url: /media/CV_JAntani.pdf

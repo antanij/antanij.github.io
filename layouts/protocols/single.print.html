@@ -1,0 +1,45 @@
+<!doctype html>
+{{/* Printer-friendly copy of a protocol: plain, always light, no site menu.
+     Published at /print/protocols/<name>/ (see `outputFormats` in config/_default/hugo.yaml). */}}
+{{ $title := .Title | default (.File.BaseFileName | humanize) }}
+{{ $html := .OutputFormats.Get "html" }}
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="color-scheme" content="light only">
+  <title>{{ $title }} · {{ site.Title }}</title>
+  <link rel="canonical" href="{{ $html.Permalink }}">
+  <style>
+    :root { color-scheme: light; }
+    html { background: #fff; color: #111; }
+    body { font: 16px/1.6 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 46rem; margin: 2rem auto; padding: 0 1.25rem; }
+    h1 { font-size: 1.9rem; line-height: 1.25; margin: 0 0 .25rem; }
+    h2 { font-size: 1.35rem; margin: 1.6rem 0 .5rem; border-bottom: 1px solid #ddd; padding-bottom: .2rem; }
+    h3 { font-size: 1.1rem; margin: 1.2rem 0 .4rem; }
+    a { color: #1d4ed8; }
+    ul, ol { padding-left: 1.4rem; }
+    li { margin: .2rem 0; }
+    code, pre { font-family: ui-monospace, Consolas, monospace; background: #f3f4f6; }
+    pre { padding: .75rem; overflow-x: auto; white-space: pre-wrap; }
+    table { border-collapse: collapse; } td, th { border: 1px solid #ccc; padding: .3rem .5rem; }
+    img { max-width: 100%; height: auto; }
+    .meta { color: #555; font-size: .9rem; margin-bottom: 1.5rem; }
+    .toolbar { margin-bottom: 1.5rem; font-size: .95rem; }
+    .toolbar button { font: inherit; padding: .35rem .9rem; border: 1px solid #999; border-radius: 6px; background: #fff; cursor: pointer; }
+    .source { margin-top: 2.5rem; padding-top: .75rem; border-top: 1px solid #ddd; color: #555; font-size: .85rem; }
+    @media print { .toolbar { display: none; } body { margin: 0; max-width: none; } a { color: #111; } }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <button type="button" onclick="window.print()">Print / Save as PDF</button>
+    &nbsp; <a href="{{ $html.RelPermalink }}">← Back to the protocol page</a>
+  </div>
+  <h1>{{ $title }}</h1>
+  <div class="meta">{{ site.Title }}{{ with .GitInfo }} · Last updated {{ $.Lastmod.Format "Jan 2, 2006" }}{{ end }}</div>
+  {{ .Content }}
+  <p class="source">Source: {{ $html.Permalink }}</p>
+</body>
+</html>

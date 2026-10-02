@@ -60,10 +60,12 @@ Note: the search box only works on the published site (its index is built during
 
 ## Experimental Protocols
 
-Drop a `.md` or `.txt` file into `content/protocols/` and commit. That's it.
+Drop a Markdown (`.md`) file into `content/protocols/` and commit. That's it.
 
-- **`.md` files** get their own page (`/protocols/<file-name>/`). An optional header sets the title;
-  without it the title is made from the file name (`phage_growth.md` → "Phage growth"):
+- Each file gets its own page: `phage_growth.md` → `/protocols/phage_growth/` (share this link).
+- Each page also gets a **printer-friendly copy** (always light, no menu) at
+  `/print/protocols/<file-name>/`, linked as "Printer-friendly version" on the page.
+- An optional header sets the title; without it the title comes from the file name:
 
   ```
   ---
@@ -71,11 +73,35 @@ Drop a `.md` or `.txt` file into `content/protocols/` and commit. That's it.
   ---
   ```
 
-- **`.txt` files** appear on the protocols page as expandable sections, plus a raw-file link at
-  `/protocols/<file-name>.txt`. A link that opens one directly: `/protocols/#<title-with-dashes>`,
-  e.g. `/protocols/#phage-fluorescent-labeling`.
-- The intro text at the top of the page is in `content/protocols/_index.md`.
-- The page templates are in `layouts/protocols/` (no need to touch them).
+- The intro text (and the agarose-pad video link) is in `content/protocols/_index.md`.
+- `.txt` files also work (shown as expandable plain text on the list page), but Markdown is recommended.
+- Templates: `layouts/protocols/` (`single.print.html` is the printable version).
+
+## Gallery
+
+Each image or movie is one small `.md` file in `content/gallery/` and gets its own page
+(`/gallery/<file-name>/`). Put the media file in `static/media/`, then copy an existing gallery file and edit:
+
+```
+---
+title: Bacterial monolayer
+media: /media/bacteria_monolayer.jpg     # image (.jpg/.png) or movie (.mp4)
+poster: /media/some_still_frame.jpg      # movies only: frame shown before playing
+alt: Short description for screen readers
+weight: 30                               # order on the Gallery page
+---
+Caption text (Markdown).
+```
+
+Browsers can't play `.avi`. Convert movies to `.mp4` (and optionally `.webm`, used automatically when
+a file with the same name exists), e.g. with ffmpeg:
+`ffmpeg -i movie.avi -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2,format=yuv420p" -c:v libx264 -crf 20 -an movie.mp4`
+
+## Homepage animation
+
+The animated figure in the About text is `static/media/feature_with_bacBurst.mp4`/`.webm`
+(made from `feature_with_bacBurst.gif`, ~30x smaller, and it scales to phone screens).
+It is a `<video>` tag inside `text:` in `content/_index.md`.
 
 ## Adding a paper
 

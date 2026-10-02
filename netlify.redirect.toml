@@ -13,10 +13,16 @@
   command = "mkdir -p public && echo 'Moved to https://antanij.github.io' > public/index.html"
   publish = "public"
 
-# Old protocol file location
+# Old protocol file locations
+[[redirects]]
+  from = "/protocols/phage_fluorescent_labeling.txt"
+  to = "https://antanij.github.io/protocols/phage_fluorescent_labeling/"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "/media/antani_phage_labeling_protocol.txt"
-  to = "https://antanij.github.io/protocols/#phage-fluorescent-labeling"
+  to = "https://antanij.github.io/protocols/phage_fluorescent_labeling/"
   status = 301
   force = true
 

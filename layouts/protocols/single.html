@@ -1,16 +1,25 @@
 {{- define "main" -}}
 {{/* A single protocol page, generated from a .md file in content/protocols/. */}}
 {{ $title := .Title | default (.File.BaseFileName | humanize) }}
+{{ $print := .OutputFormats.Get "print" }}
 <article class="mx-auto max-w-4xl px-6 pt-4 md:px-12">
   <p class="text-sm"><a class="text-primary-700 dark:text-primary-300 hover:underline" href="{{ .Parent.RelPermalink }}">← {{ .Parent.Title }}</a></p>
   <h1 class="mt-3 text-4xl font-bold tracking-tight text-gray-900 dark:text-white" data-pagefind-meta="title">{{ $title }}</h1>
   {{ with .Params.subtitle }}<p class="mt-2 text-xl text-gray-600 dark:text-gray-400">{{ . | markdownify }}</p>{{ end }}
   <p class="mt-3 text-sm text-gray-500">
     {{ with .GitInfo }}Last updated {{ $.Lastmod.Format "Jan 2, 2006" }} · {{ end }}
-    <a class="hover:underline" href="javascript:window.print()">Print</a>
+    {{ with $print }}<a class="text-primary-700 dark:text-primary-300 hover:underline" href="{{ .RelPermalink }}" target="_blank" rel="noopener">Printer-friendly version</a>{{ end }}
   </p>
   <div class="prose prose-lg dark:prose-invert mt-8 max-w-none" data-pagefind-body>
     {{ .Content }}
   </div>
 </article>
+<script>
+  // If someone prints this page directly (Ctrl+P) while in dark mode, print it in light mode.
+  (function () {
+    var root = document.documentElement, wasDark = false;
+    window.addEventListener('beforeprint', function () { wasDark = root.classList.contains('dark'); root.classList.remove('dark'); });
+    window.addEventListener('afterprint', function () { if (wasDark) root.classList.add('dark'); });
+  })();
+</script>
 {{- end -}}

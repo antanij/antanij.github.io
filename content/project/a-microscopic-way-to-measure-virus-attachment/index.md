@@ -10,7 +10,7 @@ links:
   - url: /media/Antani_et_al_Microscopic_Phage_Adsorption_Assay_2024.pdf
     label: PDF
     icon: hero/document-text
-  - url: /protocols/#phage-fluorescent-labeling
+  - url: /protocols/phage_fluorescent_labeling/
     label: Phage labeling protocol
     icon: hero/beaker
   - url: https://bsky.app/profile/antanij.bsky.social/post/3ldov7fbmek24

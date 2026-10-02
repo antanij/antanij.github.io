@@ -16,6 +16,8 @@ defaultContentLanguage: en
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
+# Keep capital letters in links (e.g. /media/CV_JAntani.pdf in the menu).
+disablePathToLower: true
 
 ############################
 ## PAGE OPTIONS
@@ -26,6 +28,11 @@ cascade:
       path: /slides/**
       kind: page
     outputs: [HTML, present]
+  # Each protocol also gets a light-themed printable copy at /print/protocols/<name>/
+  - target:
+      path: /protocols/**
+      kind: page
+    outputs: [HTML, print]
 
 ############################
 ## ADVANCED
@@ -42,6 +49,14 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 disableAliases: true
+outputFormats:
+  print:
+    mediaType: text/html
+    path: print
+    baseName: index
+    isHTML: true
+    permalinkable: true
+    noUgly: true
 outputs:
   home: [HTML, RSS, headers, redirects, backlinks]
   section: [HTML, RSS]

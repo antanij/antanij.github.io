@@ -12,7 +12,11 @@ sections:
       text: |-
         I develop microscopic tools to quantify how viruses interact with their hosts, currently using bacteriophages (viruses of bacteria) as a model system. This research supports the development of **phage therapy** strategies to combat **antimicrobial resistance**—a major public-health challenge. Some of my work has been published and is linked below.
 
-        ![phage-bacteria, microscopy, tracking](phage_bac.jpg)
+        <video class="feature-video" autoplay loop muted playsinline poster="/media/feature_with_bacBurst_poster.jpg" aria-label="Time-lapse of bacteria bursting, a cartoon of a phage attached to a bacterium, and a tracked fluorescent phage on a bacterial cell">
+          <source src="/media/feature_with_bacBurst.webm" type="video/webm">
+          <source src="/media/feature_with_bacBurst.mp4" type="video/mp4">
+          <img src="/media/feature_with_bacBurst.gif" alt="Time-lapse of bacteria bursting, a cartoon of a phage attached to a bacterium, and a tracked fluorescent phage on a bacterial cell">
+        </video>
 
         At Yale, I am affiliated with the following entities:
 
@@ -54,7 +58,7 @@ sections:
     id: projects
     content:
       title: Key Publications
-      text: 'Full list on [Google Scholar](https://scholar.google.com/citations?user=3S_V-uoAAAAJ).'
+      text: 'Full list of publications: [Google Scholar profile ↗](https://scholar.google.com/citations?user=3S_V-uoAAAAJ)'
       filters:
         folders:
           - project
