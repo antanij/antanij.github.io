@@ -1,5 +1,5 @@
 ---
-title: Experimental Protocols
+title: Practical Protocols
 summary: Lab protocols I use and share. Feel free to adapt them; please cite the relevant paper if a protocol helped your published work.
 ---
 

@@ -51,14 +51,14 @@ Note: the search box only works on the published site (its index is built during
 | Homepage layout + the long "About" text | `content/_index.md` |
 | Key Publications (one folder per paper, with `featured.png`) | `content/project/<paper>/index.md` |
 | Science Outreach posts | `content/post/<post>/index.md` |
-| Experimental Protocols | `content/protocols/` (see below) |
+| Practical Protocols | `content/protocols/` (see below) |
 | PDFs (CV, papers) | `static/media/` → served at `/media/<FileName>.pdf` |
 | Images used inside the About text | `assets/media/` (write `![alt](file.jpg)`) |
 | Top menu | `config/_default/menus.yaml` |
 | Site name, description, colours, footer | `config/_default/params.yaml` |
 | Hugo version used for publishing | `hugoblox.yaml` |
 
-## Experimental Protocols
+## Practical Protocols
 
 Drop a Markdown (`.md`) file into `content/protocols/` and commit. That's it.
 
