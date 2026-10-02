@@ -5,12 +5,8 @@ name:
   display: Jyot Antani, PhD
   given: Jyot
   family: Antani
-role: Scientist
+role: Scientist, Yale University
 bio: "Research interests: biophysics | virology | flagellar motors | imaging technology"
-
-affiliations:
-  - name: Yale University
-    url: https://www.yale.edu/
 
 links:
   - icon: at-symbol
