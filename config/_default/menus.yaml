@@ -1,0 +1,20 @@
+# Top navigation menu. `weight` sets the order.
+main:
+  - name: Home
+    url: /
+    weight: 10
+  - name: Key Publications
+    url: /#projects
+    weight: 20
+  - name: Science Outreach
+    url: /#posts
+    weight: 30
+  - name: Experimental Protocols
+    url: /protocols/
+    weight: 40
+  - name: Gallery
+    url: /gallery/
+    weight: 50
+  - name: CV
+    url: /media/CV_JAntani.pdf
+    weight: 60

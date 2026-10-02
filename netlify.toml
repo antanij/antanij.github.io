@@ -1,32 +1,77 @@
+# Netlify build settings (used until the site moves to GitHub Pages).
+# After https://antanij.github.io is live, replace this file with the contents of
+# netlify.redirect.toml so every old antanij.netlify.app link forwards to GitHub Pages.
+
 [build]
-  command = "hugo --gc --minify -b $URL"
+  command = """
+    set -e
+    echo "=== Starting Blog build process ==="
+    echo "Node version: $(node --version)"
+    echo "pnpm version: $(pnpm --version)"
+    echo "Hugo version: $(hugo version)"
+    echo "Go version: $(go version || echo 'Go not available')"
+    
+    echo "=== Installing dependencies ==="
+    pnpm install --verbose --no-frozen-lockfile
+    
+    echo "=== Running Hugo build ==="
+    hugo --gc --minify -b $URL --logLevel debug --printI18nWarnings --printPathWarnings
+    
+    echo "=== Running Pagefind indexing ==="
+    pnpm run pagefind
+    
+    echo "=== Build completed successfully ==="
+  """
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.79.1"
+  HUGO_VERSION = "0.161.1"
+  GO_VERSION = "1.21.5"
+  NODE_VERSION = "22"
+  # Netlify runs an implicit install step; ensure it never enforces frozen lockfiles
+  PNPM_FLAGS = "--no-frozen-lockfile"
   HUGO_ENABLEGITINFO = "true"
+  HUGO_LOG_I18N_WARNINGS = "true"
+  HUGO_LOG_WARNINGS = "true"
+  FORCE_COLOR = "1"
+  PNPM_LOG_LEVEL = "debug"
 
 [context.production.environment]
   HUGO_ENV = "production"
 
 [context.deploy-preview]
-  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+  command = """
+    set -e
+    echo "=== Deploy Preview Build ==="
+    echo "Deploy URL: $DEPLOY_PRIME_URL"
+    pnpm install --verbose --no-frozen-lockfile
+    hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL --logLevel debug --printI18nWarnings --printPathWarnings
+    pnpm run pagefind
+  """
 
 [context.branch-deploy]
-  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+  command = """
+    set -e
+    echo "=== Branch Deploy Build ==="
+    echo "Deploy URL: $DEPLOY_PRIME_URL"
+    pnpm install --verbose --no-frozen-lockfile
+    hugo --gc --minify -b $DEPLOY_PRIME_URL --logLevel debug --printI18nWarnings --printPathWarnings
+    pnpm run pagefind
+  """
 
-[[headers]]
-  for = "*.webmanifest"
-  [headers.values]
-    Content-Type = "application/manifest+json; charset=UTF-8"
+[[plugins]]
+  package = "netlify-plugin-hugo-cache-resources"
+  [plugins.inputs]
+    debug = true
 
-[[headers]]
-  for = "index.xml"
-  [headers.values]
-    Content-Type = "application/rss+xml"
+# Old protocol links -> the protocol page
+[[redirects]]
+  from = "/protocols/phage_fluorescent_labeling.txt"
+  to = "/protocols/phage_fluorescent_labeling/"
+  status = 301
 
-# Old location of the phage labeling protocol -> new Experimental Protocols page
+# Old location of the phage labeling protocol -> Experimental Protocols page
 [[redirects]]
   from = "/media/antani_phage_labeling_protocol.txt"
-  to = "/protocols/#phage-fluorescent-labeling"
+  to = "/protocols/phage_fluorescent_labeling/"
   status = 301

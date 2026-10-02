@@ -1,0 +1,55 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Jyot Antani, PhD
+  given: Jyot
+  family: Antani
+role: Scientist
+bio: "Research interests: biophysics | virology | flagellar motors | imaging technology"
+
+affiliations:
+  - name: Yale University
+    url: https://www.yale.edu/
+
+links:
+  - icon: at-symbol
+    url: mailto:jyot.antani@yale.edu
+    label: E-mail
+  - icon: brands/bluesky
+    url: https://bsky.app/profile/antanij.bsky.social
+    label: Bluesky
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=3S_V-uoAAAAJ
+    label: Google Scholar
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/jyotantani
+    label: LinkedIn
+  - icon: brands/github
+    url: https://github.com/antanij/
+    label: GitHub
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-7402-983X
+    label: ORCID
+  - icon: academicons/clarivate
+    url: http://www.webofscience.com/wos/author/record/ABD-2323-2021
+    label: Web of Science
+  - icon: academicons/scopus
+    url: https://www.scopus.com/authid/detail.uri?authorId=57204284025
+    label: Scopus
+
+interests:
+  - Microscopy
+  - Antimicrobial Resistance
+  - Biophysics
+  - Virology
+  - Genetic Technology
+  - Biomedical Engineering
+
+education:
+  - degree: Ph.D. in Chemical Engineering
+    institution: Texas A&M University (USA)
+    end: 2021-12-31
+  - degree: B.Tech. with Honours in Chemical Engineering
+    institution: IIT Bombay (India)
+    end: 2016-12-31

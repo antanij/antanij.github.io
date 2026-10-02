@@ -4,77 +4,69 @@
   - Every .md file in content/protocols/ becomes its own page.
   - Every .txt file in content/protocols/ is shown here as an expandable block,
     and is also published as a raw file at /protocols/<filename>.txt.
-  - Titles come from the `title:` front matter of .md files, otherwise from the
-    file name (phage_growth.md -> "Phage growth").
+  - Titles come from `title:` in the .md front matter, otherwise from the file name
+    (phage_growth.md -> "Phage growth").
 */}}
+{{ $items := slice }}
+{{ range .RegularPages }}
+  {{ $title := .Title | default (.File.BaseFileName | humanize) }}
+  {{ $summary := .Params.summary | default (.Summary | plainify | htmlUnescape | truncate 220) }}
+  {{ $items = $items | append (dict "kind" "md" "title" $title "sort" (lower $title) "page" . "summary" $summary "id" (urlize (lower $title))) }}
+{{ end }}
+{{ range .Resources.Match "*.txt" }}
+  {{ $base := path.Base .Name | replaceRE "\\.txt$" "" }}
+  {{ $title := $base | humanize }}
+  {{ $text := .Content }}
+  {{ $items = $items | append (dict "kind" "txt" "title" $title "sort" (lower $title) "res" . "id" (urlize (lower $title)) "text" $text "summary" ($text | truncate 220)) }}
+{{ end }}
 
-{{ partial "page_header.html" . }}
+<div class="mx-auto max-w-4xl px-6 pt-4 md:px-12">
+  <h1 class="mt-2 text-4xl font-bold tracking-tight text-gray-900 dark:text-white">{{ .Title }}</h1>
+  {{ with .Content }}<div class="prose prose-lg dark:prose-invert mt-6 max-w-none">{{ . }}</div>{{ end }}
 
-<div class="universal-wrapper protocols">
-  {{ with .Content }}<div class="article-style mb-4">{{ . }}</div>{{ end }}
-
-  {{/* Collect .md pages and .txt files into one list, then sort by title. */}}
-  {{ $items := slice }}
-  {{ range .RegularPages }}
-    {{ $title := .Title | default (.File.BaseFileName | humanize) }}
-    {{ $summary := .Params.summary | default (.Summary | plainify | htmlUnescape | truncate 220) }}
-    {{ $items = $items | append (dict "kind" "md" "title" $title "sort" (lower $title) "page" . "summary" $summary "weight" (.Weight | default 1000)) }}
-  {{ end }}
-  {{ range .Resources.Match "*.txt" }}
-    {{ $base := path.Base .Name | replaceRE "\\.txt$" "" }}
-    {{ $title := $base | humanize }}
-    {{ $text := .Content }}
-    {{ $items = $items | append (dict "kind" "txt" "title" $title "sort" (lower $title) "res" . "id" (urlize $title) "text" $text "summary" ($text | truncate 220) "weight" 1000) }}
-  {{ end }}
-
-  {{ if not $items }}
-    <p>No protocols yet.</p>
-  {{ end }}
-
-  {{ range sort (sort $items "sort") "weight" }}
-    <div class="protocol-item">
+  <div class="mt-10 divide-y divide-gray-200 dark:divide-gray-700 border-t border-gray-200 dark:border-gray-700">
+  {{ range sort $items "sort" }}
+    <div class="py-6">
       {{ if eq .kind "md" }}
         {{ $p := .page }}
-        <h3 class="protocol-title">
-          <i class="fas fa-flask mr-2 text-muted" aria-hidden="true"></i><a href="{{ $p.RelPermalink }}">{{ .title }}</a>
-        </h3>
-        <p class="protocol-summary">{{ .summary }}</p>
-        {{ with $p.GitInfo }}<p class="protocol-meta">{{ i18n "last_updated" }} {{ $p.Lastmod.Format site.Params.date_format }}</p>{{ end }}
+        <span id="{{ .id }}" data-page="{{ $p.RelPermalink }}" class="block scroll-mt-24"></span>
+        <h2 class="text-2xl font-semibold">
+          <a class="text-primary-700 dark:text-primary-300 hover:underline" href="{{ $p.RelPermalink }}">{{ .title }}</a>
+        </h2>
+        <p class="mt-2 text-gray-600 dark:text-gray-400">{{ .summary }}</p>
+        {{ with $p.GitInfo }}<p class="mt-1 text-sm text-gray-500 dark:text-gray-500">Last updated {{ $p.Lastmod.Format "Jan 2, 2006" }}</p>{{ end }}
       {{ else }}
-        <details class="protocol-txt" id="{{ .id }}">
-          <summary>
-            <h3 class="protocol-title d-inline"><i class="fas fa-file-alt mr-2 text-muted" aria-hidden="true"></i>{{ .title }}</h3>
-            <p class="protocol-summary">{{ .summary }} <em>(click to expand)</em></p>
+        <details id="{{ .id }}" class="group scroll-mt-24">
+          <summary class="cursor-pointer list-none">
+            <h2 class="inline text-2xl font-semibold text-primary-700 dark:text-primary-300 hover:underline">{{ .title }}</h2>
+            <span class="ml-2 text-sm text-gray-500 group-open:hidden">(click to expand)</span>
+            <span class="ml-2 text-sm text-gray-500 hidden group-open:inline">(click to collapse)</span>
+            <p class="mt-2 text-gray-600 dark:text-gray-400 group-open:hidden">{{ .summary }}</p>
           </summary>
-          <p class="protocol-meta mt-2">
-            <a href="{{ .res.RelPermalink }}" target="_blank" rel="noopener"><i class="fas fa-external-link-alt mr-1"></i>Open as plain text</a>
-            &nbsp;·&nbsp;
-            <a href="{{ .res.RelPermalink }}" download><i class="fas fa-download mr-1"></i>Download</a>
+          <p class="mt-3 text-sm">
+            <a class="text-primary-700 dark:text-primary-300 hover:underline" href="{{ .res.RelPermalink }}" target="_blank" rel="noopener">Open as plain text</a>
+            <span class="mx-2 text-gray-400">·</span>
+            <a class="text-primary-700 dark:text-primary-300 hover:underline" href="{{ .res.RelPermalink }}" download>Download</a>
           </p>
-          <pre class="protocol-pre">{{ .text }}</pre>
+          <pre class="mt-4 whitespace-pre-wrap break-words rounded-lg bg-gray-100 dark:bg-gray-800 p-4 text-sm text-gray-800 dark:text-gray-200">{{ .text }}</pre>
         </details>
       {{ end }}
     </div>
+  {{ else }}
+    <p class="py-6">No protocols yet.</p>
   {{ end }}
+  </div>
 </div>
-
-<style>
-  .protocols .protocol-item { padding: 1rem 0; border-bottom: 1px solid rgba(127,127,127,.25); }
-  .protocols .protocol-item:last-child { border-bottom: 0; }
-  .protocols .protocol-title { font-size: 1.25rem; margin: 0 0 .35rem 0; }
-  .protocols .protocol-summary { margin: 0; opacity: .85; }
-  .protocols .protocol-meta { font-size: .85rem; opacity: .7; margin: .25rem 0 0 0; }
-  .protocols details > summary { cursor: pointer; list-style-position: outside; }
-  .protocols details[open] > summary .protocol-summary { display: none; }
-  .protocols .protocol-pre { color: inherit; background: rgba(127,127,127,.08); white-space: pre-wrap; word-wrap: break-word; font-size: .9rem; padding: 1rem; border-radius: 6px; margin-top: .75rem; }
-</style>
 <script>
-  // Open a .txt protocol automatically when linked directly, e.g. /protocols/#phage-fluorescent-labeling
+  // Links like /protocols/#<protocol-title> open that protocol.
   (function () {
     function openHash() {
       var id = decodeURIComponent(location.hash.slice(1));
       var el = id && document.getElementById(id);
-      if (el && el.tagName === 'DETAILS') { el.open = true; el.scrollIntoView(); }
+      if (!el) return;
+      // An old link like /protocols/#phage-fluorescent-labeling: go to that protocol's own page.
+      if (el.dataset.page) { location.replace(el.dataset.page); return; }
+      if (el.tagName === 'DETAILS') { el.open = true; el.scrollIntoView(); }
     }
     window.addEventListener('hashchange', openHash);
     document.addEventListener('DOMContentLoaded', openHash);

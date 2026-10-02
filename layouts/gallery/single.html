@@ -1,0 +1,20 @@
+{{- define "main" -}}
+{{/* One gallery item: a large image or movie with its caption. */}}
+{{ $is_video := in (slice ".mp4" ".webm" ".mov") (path.Ext .Params.media | lower) }}
+<article class="mx-auto max-w-5xl px-6 pt-4 md:px-12">
+  <p class="text-sm"><a class="text-primary-700 dark:text-primary-300 hover:underline" href="{{ .Parent.RelPermalink }}">← {{ .Parent.Title }}</a></p>
+  <h1 class="mt-3 text-4xl font-bold tracking-tight text-gray-900 dark:text-white" data-pagefind-meta="title">{{ .Title }}</h1>
+  <figure class="mt-6">
+    {{ if $is_video }}
+      <video class="mx-auto max-h-[80vh] w-auto max-w-full rounded-lg" {{ with .Params.poster }}poster="{{ . | relURL }}"{{ end }} controls autoplay loop muted playsinline aria-label="{{ .Params.alt | default .Title }}">{{ $webm := replaceRE `\.[^.]+$` ".webm" .Params.media }}{{ if and (ne $webm .Params.media) (fileExists (printf "static%s" $webm)) }}<source src="{{ $webm | relURL }}" type="video/webm">{{ end }}<source src="{{ .Params.media | relURL }}" type="video/mp4"></video>
+    {{ else }}
+      <a href="{{ .Params.media | relURL }}" target="_blank" rel="noopener"><img class="mx-auto max-h-[80vh] w-auto max-w-full rounded-lg" src="{{ .Params.media | relURL }}" alt="{{ .Params.alt | default .Title }}"></a>
+    {{ end }}
+    <figcaption class="prose dark:prose-invert mx-auto mt-4 max-w-3xl" data-pagefind-body>{{ .Content }}</figcaption>
+  </figure>
+  <p class="mx-auto mt-4 max-w-3xl text-sm text-gray-500">
+    <a class="text-primary-700 dark:text-primary-300 hover:underline" href="{{ .Params.media | relURL }}" download>Download</a>
+    {{ with .Params.original }} · <a class="text-primary-700 dark:text-primary-300 hover:underline" href="{{ . | relURL }}" download>Download original</a>{{ end }}
+  </p>
+</article>
+{{- end -}}
