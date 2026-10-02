@@ -59,13 +59,13 @@ You can...
 - The filtrate is your phage solution (also called a "lysate" or "phage stock"). 
 
 ## Storage 
-- __Short/medium-term (4°C) __: Most lab-adapted phages are perfectly happy sitting in the fridge at 4°C, often for months to years. This is the easiest and most common storage method, and is fine for day-to-day lab use.
+- **Short/medium-term (4°C)**: Most lab-adapted phages are perfectly happy sitting in the fridge at 4°C, often for months to years. This is the easiest and most common storage method, and is fine for day-to-day lab use.
 	- Phage titer (concentration) can slowly decay over time at 4°C. The rate of decay depends heavily on the phage. If you're relying on an old stock for an important experiment, it's good practice to re-titer it (count plaques again) rather than assume the original titer still holds.
 	- Store stocks in a buffer or media you trust won't support bacterial growth if contaminated (e.g., SM buffer or PBS), and keep lysates in tightly capped tubes to avoid evaporation (which concentrates salts/agar and can stress phages).
 
 
 
-- __Long-term (-80°C) __: For archival stocks (e.g., a reference stock of an important phage you don't want to lose), freezing at -80°C is common.
+- **Long-term (-80°C)**: For archival stocks (e.g., a reference stock of an important phage you don't want to lose), freezing at -80°C is common.
 	- Glycerol (typically 15-25% final concentration) is often added as a cryoprotectant, similar to how you'd freeze a bacterial stock; though many robust phages survive freezing without it. If you're unsure, check what others have published for your phage of interest.
 	- Avoid repeated freeze-thaw cycles, which can reduce titer over time. If you expect to use a frozen stock often, consider making several single-use aliquots up front rather than freeze-thawing one tube repeatedly.
 	- Note that -80°C storage isn't strictly necessary for most lab-adapted phages. 4°C stocks will likely outlive your PhD. Freezing is more about long-term insurance (e.g., protecting against fridge failure, contamination, or just wanting a "clean" backup you don't touch).
